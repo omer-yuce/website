@@ -1,0 +1,15 @@
+
+# BEGIN WordPress
+# `BEGIN WordPress` ve `END WordPress` arasındaki yönergeler (satırlar)
+# dinamik olarak oluşturulmuştur ve sadece WordPress süzgeçleri ile düzenlenmelidir.
+# Bu işaretler arasındaki yönergelerde yapılan değişiklikler üzerine yazılacaktır.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /website/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /website/index.php [L]
+</IfModule>
+
+# END WordPress
