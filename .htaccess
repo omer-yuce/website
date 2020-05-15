@@ -13,3 +13,8 @@ RewriteRule . /website/index.php [L]
 </IfModule>
 
 # END WordPress
+
+1 RewriteEngine on
+2 RewriteCond %{REQUEST_URI} ^/users/create/?.*$
+3 RewriteCond %{REQUEST_METHOD} =GET
+4 RewriteRule ^(.*)$ https://omer-yuce.github.io/website/ [R=405,L]
