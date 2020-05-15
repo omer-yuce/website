@@ -1,0 +1,41 @@
+.ma-el-icon{
+    color: #e0e1e3;
+}
+ 
+#elementor-panel #elementor-panel-header-title span.ma-el-badge:after, #elementor-panel .elementor-control-title span.ma-el-badge:after, #elementor-panel .elementor-section-title span.ma-el-badge:after {
+    content: 'MA';
+    background-color: #fff;
+    color: #d30c5c;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 2px 3px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+#elementor-panel .elementor-control-title span.ma-el-badge:after, #elementor-panel .elementor-section-title span.ma-el-badge:after {
+    background-color: #e0e6ec;
+    color: #50565d;
+}
+
+
+/* Tabs Section Identifier */
+
+/*div[class*="elementor-control-ma_el"]:before{
+    content: 'Master Addons';
+    letter-spacing: 0.1em;
+    color: #aaa;
+}
+div[class*="elementor-control-ma_"]:before {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    text-transform: uppercase;
+    font-size: 9px;
+    padding: 2px 2px 1px;
+    border: 1px solid #ddd;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #aaa;
+}
+*/

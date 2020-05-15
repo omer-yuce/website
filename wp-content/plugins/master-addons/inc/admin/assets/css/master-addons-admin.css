@@ -1,0 +1,1204 @@
+/*
+* Master Addons for Elementor by Jewel Theme < Liton Arefin >
+* All Admin CSS 
+* Admin Settings and Welcome Page CSS
+*/
+
+
+/*.master_addons{*/
+    /*background: #fff;*/
+/*}*/
+
+.master_addons .wrappper{
+    margin:0;
+}
+.master_addons .wrappper.about-wrap{
+    overflow: hidden;
+    margin:0;
+    margin-top: -2px;
+    max-width: 100%;
+    position: relative;
+}
+.master_addons .wrappper.about-wrap .master_addons_contents{
+    display:flex;
+    padding: 0;
+}
+.master_addons header,
+.master_addons .wp-tab-bar {
+    padding: 20px;
+}
+.wp-tab-bar.master_addons_navbar {
+    margin-top: 40px;
+    margin-left: -20px;
+}
+.master_addons .about-wrap .wp-badge{
+    top:-15px;
+    right: 15%;
+}
+
+/* Columns */
+
+.four-col,.three-col {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+.col{
+    flex: 1;
+    margin-right:2%;
+}
+
+.four-col .col{
+    width: 23%;
+}
+.three-col .col{
+    width: 32%;
+}
+.three-col .col:last-child,
+.four-col .col:last-child {
+    flex: 1;
+    margin-right: 0 !important;
+}
+
+
+/** > :last-child { margin-bottom: 0 !important; margin-right: 0 !important; }*/
+
+/* End of Columns */
+
+
+.feature_content img {
+    max-width: 120px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.alice-green-bg {
+    background-color: #e4f1f9;
+}
+
+.master_addons .header .ma_el_logo{
+    cursor: pointer;
+}
+
+.master_addons small{
+    font-size: 16px;
+    font-style: italic;
+}
+.about-wrap h1 {
+    color: #fff;
+}
+
+.master_addons .header .about-text {
+    color: #fff;
+    margin: 0px 0px -60px 0;
+}
+.about-wrap .about-text {
+    color: #fff;
+}
+.main_heading{
+    font-size: 45px !important;
+}
+.black{
+    color: #32373c !important;
+}
+.textcenter{
+    text-align: center;
+}
+
+/* Logo */
+.svg .wp-badge.welcome__logo {
+    background: url('../../../../assets/images/logo-256x256.png') center 24px no-repeat;
+    background-size: contain;
+    color: #fff;
+    box-shadow: none;
+    height: 46px;
+}
+
+/* Responsive Youtube Video*/
+.embed-container {
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    top: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* Tabs and Contents */
+
+#post-body ul.wp-tab-bar {
+	float: left;
+	width: 120px;
+	text-align: right;
+	/* Negative margin for the sake of those without JS: all tabs display */
+	margin: 0 -120px 0 5px;
+	padding: 0;
+}
+ 
+#post-body ul.wp-tab-bar li {
+	padding: 8px;
+}
+
+.master_addons_navbar li.wp-tab-active a::after{
+    background-color: #9a47d8 !important;
+}
+/* ul.wp-tab-bar li.wp-tab-active {
+	-webkit-border-top-left-radius: 30px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 0px;
+} */
+
+div.wp-tab-panel-active {
+	display:block;
+}
+
+div.wp-tab-panel-inactive {
+ 	display:none;
+}
+
+#post-body div.wp-tab-panel {
+	margin: 0 5px 0 125px;
+}
+ 
+.has-right-sidebar #side-sortables .wp-tab-bar li {
+	display: inline;
+	line-height: 1.35em;
+}
+
+.no-js #side-sortables .wp-tab-bar li.hide-if-no-js {
+ 	display: none;
+}
+
+#side-sortables .wp-tab-bar a {
+	text-decoration: none;
+}
+
+#side-sortables .wp-tab-bar {
+	margin: 8px 0 3px;
+}
+
+#side-sortables .wp-tab-bar {
+	margin-bottom: 3px;
+}
+
+#post-body .wp-tab-bar li.wp-tab-active {
+	border-style: solid none solid solid;
+	border-width: 1px 0 1px 1px;
+	margin-right: -1px;
+}
+
+#post-body ul.wp-tab-bar {
+	float: left;
+	width: 120px;
+	text-align: right;
+	/* Negative margin for the sake of those without JS: all tabs display */
+	margin: 0 -120px 0 5px;
+	padding: 0;
+}
+
+#post-body ul.wp-tab-bar li {
+	padding: 8px;
+	display: block;
+}
+
+#post-body ul.wp-tab-bar li a {
+    text-decoration: underline;
+}
+.master_addons_navbar.wp-tab-bar li {
+    display: inline-flex;
+    padding: 0;
+}
+
+.master_addons_navbar.wp-tab-bar li a {
+    display: inline-block;
+    padding: 25px 50px;
+}
+.master_addons_navbar.wp-tab-bar li a:hover,
+.master_addons_navbar.wp-tab-bar li a:focus,
+.master_addons_navbar.wp-tab-bar li a:visited {
+    box-shadow: none;
+    outline: 0;
+}
+pre {
+    white-space: pre-line !important;
+}
+.master_addons_navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5em 0 0.3em;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.master_addons_navbar.wp-tab-bar li{
+    line-height: inherit;
+}
+ul.wp-tab-bar.master_addons_navbar{
+    margin-bottom: 0;
+}
+.wp-tab-active{
+    border:none;
+}
+.master_addons_navbar li a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.master_addons_navbar li a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    outline: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+    background: #686DF7;
+    box-shadow: inset 0 -3px 3px rgba(0,0,0,0.05);
+    content: '';
+    -webkit-transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+    transform: perspective(5px) rotateX(0.93deg) translateZ(-1px);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.master_addons_navbar li.wp-tab-active a::after{
+    background: #FD4770 !important;
+    box-shadow: none;
+}
+
+.master_addons .wp-tab-panel{
+    border: none;
+    background-color: inherit;
+    max-height: inherit;
+    min-width: 100%;
+    width: 100%;
+    padding:0;
+}
+
+.master_addons .wp-tab-bar .wp-tab-active a,
+.master_addons .wp-tab-bar .wp-tab-active a:active,
+.master_addons .wp-tab-bar .wp-tab-active a:focus{
+    color:#fff;
+}
+.wp-tab-bar.master_addons_navbar li.wp-tab-active {
+    background-color: inherit;
+}
+
+#post-body div.wp-tab-panel {
+	margin: 0 5px 0 125px;
+}
+
+#post-body ul.wp-tab-bar li.wp-tab-active a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.right_column .tab-banner {
+    margin: -140px 0 0;
+}
+#support .right_column .tab-banner,
+#docs .right_column .tab-banner {
+    margin: -70px 0 0;
+}
+.wp-tab-panel .sub-heading {
+    margin-top: 10px !important;
+}
+
+/* Demo List Columns */
+.master_addons_demos{
+    height: 250px;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.master_addons_demos li{
+    padding: 5px 0;
+}
+.master_addons_demos li a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+/* Ribbons */
+.ribbon{
+    color: #fff;
+    border-radius: 15px;
+    height: 50px;
+    width: 88px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.new{
+    background: #F70505;
+}
+.hot{
+    background: #F2DB05;
+    color: red;
+}
+.pro{
+    background: #007200;
+}
+.coming{
+    background: #B6BAC9;
+    font-size: 10px;
+    padding: 5px 4px;
+}
+.trending{
+    background: #465cad;
+    font-size: 10px;
+    padding: 5px 4px;
+}
+.popular{
+    background: #05EFF7;
+    font-size: 10px;
+    padding: 5px 4px;
+}
+
+/* Sidebar */
+
+.sidebar_title{
+    background: #274ad8;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin:0 !important;
+}
+.sidebar_title .dashicons{
+    padding: 5px;
+}
+.inner_content{
+    padding: 30px 40px;
+    border-bottom: solid 1px #e3e3e4;
+    margin: 0;
+    list-style: none;
+    background: #28c6ab;
+}
+.inner_content p{
+    color: #fff;
+}
+.inner_content .master_addons_button,
+.inner_content .master_addons_button:hover,
+.inner_content .master_addons_button:active
+.inner_content .master_addons_button:visited,
+.inner_content .master_addons_button:focus{
+    width: 100%;
+    text-align: center;
+    line-height: 46px;
+    height: 48px;
+    margin-top: 10px;
+    background: #b54bd8;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid mediumaquamarine;
+    box-shadow: none;
+    transition: .3s ease;
+    text-shadow: none !important;
+    text-transform: uppercase;
+}
+
+
+
+/* Column Width */
+.master_addons_contents .parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.master_addons_contents .parent .left_column {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.master_addons_contents .parent .left_column pre {
+    padding-right: 45px;
+}
+.master_addons_contents .parent .right_column {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.master_addons_contents #changelogs .parent .left_column {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.master_addons_contents #changelogs .parent .right_column {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.master_addons_features{
+    margin-bottom: 70px;
+    
+}
+.master_addons_features .master_addons_feature .col{
+    /*flex: 1;*/
+    overflow: hidden;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    vertical-align: top;
+    float: left;
+    margin-bottom: 4%;
+    transition: .3s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;    
+}
+.master_addons_features .master_addons_feature .col .feature_content{
+    padding:5% 5% 3% 5%;
+    text-align:center;
+}
+.feature_content .left_block{
+    float: left;
+    width: 50%;
+}
+.feature_content .right_block{
+    float: right;
+    width: 50%;
+}
+.master_addons p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.master_addons #changelogs pre{
+    overflow-x:hidden;
+}
+
+
+/* Animation */
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    height: 192px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: -1;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #b54bd8 20%, #274ad8 80%);
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+    animation: move-wave 3s;
+    -webkit-animation: move-wave 3s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+
+/* Free Themes */
+.theme-browser .theme .theme-name{
+    font-size: 15px;
+    font-weight: 600;
+    height: 18px;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #fff;
+    background: rgba(255,255,255,.65);
+}
+
+
+
+/* Accordion */
+.ui-accordion-content-active {
+    height: auto !important;
+}
+.ui-accordion .ui-accordion-header:focus {
+    outline: 0 !important;
+}
+.ui-accordion .ui-accordion-header {
+    background-color: #2351db;
+    background-image: none;
+    color: #fff;
+    padding: 8px 45px 8px 15px;
+    position: relative;
+}
+.ui-accordion-header-active {
+    background-color: #fff;
+    color: #2351db;
+}
+.ui-accordion-header .ui-icon {
+    background-image: none !important;
+    position: relative;
+}
+.ui-accordion-header:before {
+    content: "\f343";
+    width: 40px;
+    height: 40px;
+    font-family: dashicons;
+    font-size: 18px;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+}
+.ui-accordion-header-active:before {
+    content: "\f347";
+}
+
+
+/* Addons */
+
+.master-addons-dashboard-checkbox{
+    position: relative;
+    min-width: 255px;
+    font-size: 24px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border: 1px solid #E8E9EF;
+    padding: 10px;
+    padding: 10px;
+    margin-bottom: 5px !important;
+
+}
+
+.pro-ribbon {
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: absolute;
+    width: 80px;
+    top: 4px;
+    left: -28px;
+    z-index: 2;
+    overflow: hidden;
+    /*box-shadow:0 0 0 3px #4734f1,  0px 21px 5px -18px rgba(0,0,0,0.6);*/
+    background: #4734f1;
+}
+
+
+.master-addons-dashboard-checkbox .master-addons-el-title{
+    font-size: 15px;
+    float: left;
+    margin: 0;
+    padding-left: 8px;
+}
+
+.master-addons-dashboard-checkbox .switch.switch-text {
+    float: right;
+    margin-left: 10px;
+    /*margin-top: 160;*/
+}
+
+.master-addons-el-btn {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding: 8px 24px;
+    text-align: center;
+    background: #3CCD94;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -0.08px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #fff !important;
+    white-space: nowrap;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 200ms ease-out;
+    -webkit-transition: all 200ms ease-out;
+    font-size: .8125rem;
+    line-height: 1.53846;
+}
+.master-addons-el-save-btn-wrap .master-addons-el-btn.master-addons-el-save-now, .master-addons-el-dashboard-header-wrapper .master-addons-el-btn.master-addons-el-save-now{
+    background: #F56640;
+}
+
+.master-addons-el-btn:hover, .master-addons-el-btn:focus {
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(50,50,93,0.25), 0 3px 6px rgba(0,0,0,0.2);
+}
+.swal2-confirm:focus, .master-addons-el-btn:focus{
+    outline:none;
+}
+.master-addons-el-dashboard-tabs-wrapper .master_addons_feature{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.master-addons-el-dashboard-header-right{
+    text-align: right;
+    right: 20px;
+    padding-right: 0;
+    margin-top: -50px;
+    margin-top: -65px;
+    position: absolute;
+}
+#addons .sub-heading{
+    padding-left:10px;
+}
+.master-addons-dashboard-tab .master_addons_feature h3{
+    width: 100%;
+    padding-left: 10px;
+    margin: 0;
+}
+
+
+/* News Dashboard Widget */
+#master-addons-news-feed .hndle.ui-sortable-handle img{
+    margin: -5px 10px -5px 0;
+}
+#master-addons-news-feed .master-addons-dashboard_footer{
+    margin: 0 -12px -12px;
+    padding: 12px;
+    border-top: 1px solid #eee;
+}
+#master-addons-news-feed .master-addons-dashboard_footer ul{
+    display: flex;
+    list-style: none;
+}
+#master-addons-news-feed .master-addons-dashboard_footer ul li:first-child {
+    padding-left: 0;
+    border: none;
+}
+#master-addons-news-feed .master-addons-dashboard_footer li {
+    padding: 0 10px;
+    margin: 0;
+    border-left: 1px solid #ddd;
+}
+#master-addons-news-feed .ma-el-overview__go-pro a {
+    color: #fcb92c;
+    font-weight: 500;
+}
+/*class=""*/
+/*.ma-el-pro > .master-addons-dashboard-checkbox{*/
+/*.master-addons-dashboard-checkbox:contains(.ma-el-pro ){*/
+    /*background-color:red !important;*/
+/*}*/
+
+
+/*
+ Freemius Styles
+ */
+div.fs-notice.updated, div.fs-notice.success, div.fs-notice.promotion, .fs-notice-body {
+    display: block !important;
+}
+.fs-modal .fs-modal-header{
+    background: #4a33f1 !important;
+}
+.fs-modal .fs-modal-header h4{
+    color: #fff !important;
+}
+
+
+/* Responsive CSS */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .master_addons header{
+        padding:0;
+    }
+
+    .master_addons .about-wrap .wp-badge {
+        top: -25px;
+        right: -5px;
+        width: 60px;
+    }
+    .header .ma_title{
+        position: absolute;
+        top: 0px;
+        font-size: 1.2em;
+        padding-left: 20%;
+    }
+    .master_addons .header .about-text{
+        position: absolute;
+        top: 25px;
+        font-size: .8em;
+        padding-left: 20%;
+    }
+    .wp-tab-bar.master_addons_navbar{
+        margin-top:-110px;
+        z-index: 2;
+        position: relative;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 10px;
+    }
+    .master_addons_navbar li a{
+        font-size: 1em;
+    }
+    .master-addons-dashboard-checkbox{
+        min-width: 87%;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width : 380px) {
+    .waveWrapper{
+        height: 135px;
+        right:10px;
+    }
+    .master_addons .about-wrap .wp-badge {
+        top: -25px;
+        right: 10px;
+        width: 60px;
+    }
+    .header .ma_title{
+        /* position: absolute; */
+        top: 0px;
+        font-size: 1.2em;
+    }
+    .master_addons .header .about-text{
+        /* position: absolute; */
+        top: 25px;
+        font-size: .8em;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 7px 5px;
+    }
+    .master_addons_navbar li a{
+        font-size: 1em;
+    }
+    .master-addons-dashboard-checkbox{
+        max-width: 87%;
+    }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .header .ma_title{
+        font-size: 1.8em;
+        margin:0;       
+    }
+    .master_addons .header .about-text{
+        font-size: 1em;
+    }
+    .master_addons .about-wrap .wp-badge{
+        right: 20%;
+    }
+    .waveWrapper{
+        height: 150px;
+        right:10px;
+    }
+    .master_addons_navbar li a{
+        font-size: .9em;
+    }    
+    .master_addons_navbar.wp-tab-bar li a{
+        padding:10px 15px;
+    }
+    .master_addons_navbar.wp-tab-bar li {
+        position: relative;
+        z-index: 3;
+    }
+        
+    .master-addons-dashboard-checkbox .master-addons-el-title{
+        font-size: .6em;
+    }
+    .master-addons-dashboard-checkbox{
+        min-width: 28%;
+        font-size: 1.5em;
+    }
+
+    /*
+    .ma_logo{}
+    .ma_el_extensions .master-addons-dashboard-checkbox{
+        min-width: 50%;
+    } */
+    .ma_el_extensions .master_addons_features .master_addons_feature .col{
+        flex:1;
+    }
+    
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-height : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .waveWrapper{
+        height: 150px;
+        right:10px;
+    }
+    .wp-tab-bar.master_addons_navbar{
+        margin-top: 96px;
+    }
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+    .waveWrapper{
+        height: 192px;
+        right:10px;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+    .waveWrapper{
+        height: 192px;
+        right:10px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    .waveWrapper {
+        height: 160px;
+        right: 10px;
+    }
+    .wp-tab-bar.master_addons_navbar{
+        margin-top: 65px;
+    }
+    .master_addons_navbar.wp-tab-bar li{
+        margin-right: -9px;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    .master_addons_navbar.wp-tab-bar li {
+        position: relative;
+        z-index: 3;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 23px 30px;
+    }
+    
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    
+    .master_addons .about-wrap .wp-badge {
+        top: -25px;
+        right: -5px;
+        width: 60px;
+    }
+    .header .ma_title{
+        /* position: absolute; */
+        top: 0px;
+        font-size: 1.2em;
+    }
+    .master_addons .header .about-text{
+        /* position: absolute; */
+        top: 25px;
+        font-size: .8em;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 10px;
+    }
+    .master_addons_navbar li a{
+        font-size: 1em;
+    }
+    .master-addons-dashboard-checkbox{
+        min-width: 87%;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+    .master_addons header{
+        padding:0;
+    }
+
+    .master_addons .about-wrap .wp-badge {
+        top: -25px;
+        right: -5px;
+        width: 60px;
+    }
+    .header .ma_title{
+        position: absolute;
+        top: 0px;
+        font-size: 1.2em;
+        padding-left: 20%;
+    }
+    .master_addons .header .about-text{
+        position: absolute;
+        top: 25px;
+        font-size: .8em;
+        padding-left: 20%;
+    }
+    .wp-tab-bar.master_addons_navbar{
+        margin-top:-110px;
+        z-index: 2;
+        position: relative;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 10px;
+    }
+    .master_addons_navbar li a{
+        font-size: 1em;
+    }
+    .master-addons-dashboard-checkbox{
+        min-width: 87%;
+    }
+}
+
+@media only screen and (min-device-height: 411px) and (max-device-width: 731px) and (orientation : landscape){
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 7px 5px;
+    }
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-height: 414px) and (max-device-width: 736px) and (orientation : landscape){
+    .waveWrapper{
+        height: 145px;
+    }
+    .master_addons_navbar.wp-tab-bar li{
+        margin-right: -7px;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 7px 5px;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .waveWrapper{
+        height: 145px;
+    }
+    .wp-tab-bar.master_addons_navbar {
+        margin-top: -100px;
+        z-index: 2;
+        position: relative;
+    }
+    .master_addons .about-wrap .wp-badge {
+        top: -25px;
+        right: -5px;
+        width: 60px;
+    }
+    .header .ma_title{
+        position: absolute;
+        top: 0px;
+        font-size: 2em;
+        /* font-size: 1.2em; */
+        /* padding-left: 20%; */
+    }
+    .master_addons .header .about-text{
+        position: absolute;
+        top: 50px;
+        font-size: 1em;
+        /* top: 25px; */
+        /* font-size: .8em; */
+        /* padding-left: 20%; */
+    }
+    .wp-tab-bar.master_addons_navbar{
+        /* margin-top:-110px; */
+        z-index: 2;
+        position: relative;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 10px;
+    }
+    .master_addons_navbar li a{
+        font-size: 1em;
+    }
+    .master-addons-dashboard-checkbox{
+        min-width: 87%;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    
+
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-height: 375px) and (max-device-width: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+
+    .waveWrapper{
+        height: 135px;
+    }
+    .master_addons_navbar.wp-tab-bar li{
+        margin-right: -5px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    .master_addons header{
+        padding:0;
+    }
+
+    .master_addons .about-wrap .wp-badge {
+        top: -25px;
+        right: -5px;
+        width: 60px;
+    }
+    .header .ma_title{
+        position: absolute;
+        top: 0px;
+        font-size: 1.2em;
+        padding-left: 20%;
+    }
+    .master_addons .header .about-text{
+        position: absolute;
+        top: 25px;
+        font-size: .7em;
+        padding-left: 20%;
+    }
+
+    .wp-tab-bar.master_addons_navbar{
+        margin-top:-100px;
+        z-index: 2;
+        position: relative;
+    }
+    .master_addons_navbar.wp-tab-bar li{
+        margin-right: -9px;
+    }
+    .master_addons_navbar.wp-tab-bar li a{
+        padding: 10px 15px;
+        font-size: .9em;
+    }
+    .master_addons_navbar li a{
+        font-size: 1em;
+    }
+    .master-addons-dashboard-checkbox{
+        min-width: 87%;
+    }
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}

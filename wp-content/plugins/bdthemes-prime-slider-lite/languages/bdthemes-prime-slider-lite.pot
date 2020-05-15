@@ -1,0 +1,3226 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Prime Slider\n"
+"POT-Creation-Date: 2020-05-09 16:40+0600\n"
+"PO-Revision-Date: 2020-05-09 16:40+0600\n"
+"Last-Translator: Selim Rana <selim@bdthemes.com>\n"
+"Language-Team: Selim Rana <selim@bdthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bdthemes-prime-slider.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: base/prime-slider-module-base.php:33 base/prime-slider-module-base.php:44
+#: loader.php:53 loader.php:64
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: bdthemes-prime-slider.php:123
+msgid ""
+"Ops! Prime Slider not working because you need to activate the Elementor "
+"plugin first."
+msgstr ""
+
+#: bdthemes-prime-slider.php:124
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: bdthemes-prime-slider.php:130
+msgid ""
+"Ops! Prime Slider not working because you need to install the Elementor "
+"plugin"
+msgstr ""
+
+#: bdthemes-prime-slider.php:131
+msgid "Install Elementor Now"
+msgstr ""
+
+#: includes/admin-settings.php:53
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin-settings.php:65 includes/admin-settings.php:82
+msgid "Core Widgets"
+msgstr ""
+
+#: includes/admin-settings.php:94
+msgid "Custom Slider"
+msgstr ""
+
+#: includes/admin-settings.php:106
+msgid "General Base"
+msgstr ""
+
+#: includes/admin-settings.php:118
+msgid "Flogia Base"
+msgstr ""
+
+#: includes/admin-settings.php:131
+msgid "General - Skin Slide"
+msgstr ""
+
+#: includes/admin-settings.php:141
+msgid "General - Skin Crelly"
+msgstr ""
+
+#: includes/admin-settings.php:151
+msgid "General - Skin Meteor"
+msgstr ""
+
+#: includes/admin-settings.php:162
+msgid "Isolate Base"
+msgstr ""
+
+#: includes/admin-settings.php:173
+msgid "Isolate - Skin Locate"
+msgstr ""
+
+#: includes/admin-settings.php:183
+msgid "Isolate - Skin Slice"
+msgstr ""
+
+#: includes/admin-settings.php:194
+msgid "Blog Base"
+msgstr ""
+
+#: includes/admin-settings.php:206
+msgid "Blog - Skin Coral"
+msgstr ""
+
+#: includes/admin-settings.php:216
+msgid "Blog - Skin Folio"
+msgstr ""
+
+#: includes/admin-settings.php:226
+msgid "Blog - Skin Zinest"
+msgstr ""
+
+#: includes/admin-settings.php:238
+msgid "Fluent Base"
+msgstr ""
+
+#: includes/admin-settings.php:249
+msgid "WooCommerce Base"
+msgstr ""
+
+#: includes/admin-settings.php:260
+msgid "WooStand Base"
+msgstr ""
+
+#: includes/admin-settings.php:272
+msgid "Multiscroll Base"
+msgstr ""
+
+#: includes/admin-settings.php:284 modules/event-calendar/module.info.php:5
+#: modules/event-calendar/widgets/event-calendar.php:26
+msgid "Event Calendar"
+msgstr ""
+
+#: includes/admin-settings.php:686
+msgid "Please wait, Saving settings..."
+msgstr ""
+
+#: includes/admin-settings.php:694
+msgid "Settings Saved Successfully."
+msgstr ""
+
+#: includes/admin-settings.php:701
+msgid "Unknown error, make sure access is correct!"
+msgstr ""
+
+#: includes/admin-settings.php:735
+msgid "Thank you for purchase Prime Slider. Please <a href=\""
+msgstr ""
+
+#: includes/admin.php:55
+msgid "Go for Get Support"
+msgstr ""
+
+#: includes/admin.php:55
+msgid "Get Support"
+msgstr ""
+
+#: includes/admin.php:56
+msgid "View Prime Slider Video Tutorials"
+msgstr ""
+
+#: includes/admin.php:56
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/admin.php:67
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings-api.php:523
+msgid "Choose File"
+msgstr ""
+
+#: includes/helper.php:183
+msgid "You Haven’t Saved Templates Yet."
+msgstr ""
+
+#: includes/helper.php:185 modules/custom/widgets/custom.php:189
+msgid "Select Template"
+msgstr ""
+
+#: includes/helper.php:207
+msgid "Edit Template"
+msgstr ""
+
+#: includes/helper.php:225
+msgid "No sidebars were found"
+msgstr ""
+
+#: includes/helper.php:227
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/helper.php:245 modules/blog/widgets/blog.php:1025
+#: modules/blog/widgets/blog.php:2814
+#: modules/event-calendar/widgets/event-calendar.php:482
+#: modules/flogia/widgets/flogia.php:351 modules/fluent/widgets/fluent.php:508
+#: modules/general/widgets/general.php:915
+#: modules/general/widgets/general.php:2913
+#: modules/isolate/widgets/isolate.php:913
+#: modules/isolate/widgets/isolate.php:2844
+#: modules/isolate/widgets/isolate.php:2920
+#: modules/woocommerce/widgets/woocommerce.php:557
+#: modules/woostand/widgets/woostand.php:1136
+msgid "None"
+msgstr ""
+
+#: includes/helper.php:246 modules/custom/widgets/custom.php:608
+#: modules/general/widgets/general.php:1533
+#: modules/general/widgets/general.php:1553
+msgid "Fade"
+msgstr ""
+
+#: includes/helper.php:247
+msgid "Scale Up"
+msgstr ""
+
+#: includes/helper.php:248
+msgid "Scale Down"
+msgstr ""
+
+#: includes/helper.php:249
+msgid "Slide Top"
+msgstr ""
+
+#: includes/helper.php:250
+msgid "Slide Bottom"
+msgstr ""
+
+#: includes/helper.php:251
+msgid "Slide Left"
+msgstr ""
+
+#: includes/helper.php:252
+msgid "Slide Right"
+msgstr ""
+
+#: includes/helper.php:253
+msgid "Slide Top Small"
+msgstr ""
+
+#: includes/helper.php:254
+msgid "Slide Bottom Small"
+msgstr ""
+
+#: includes/helper.php:255
+msgid "Slide Left Small"
+msgstr ""
+
+#: includes/helper.php:256
+msgid "Slide Right Small"
+msgstr ""
+
+#: includes/helper.php:257
+msgid "Slide Top Medium"
+msgstr ""
+
+#: includes/helper.php:258
+msgid "Slide Bottom Medium"
+msgstr ""
+
+#: includes/helper.php:259
+msgid "Slide Left Medium"
+msgstr ""
+
+#: includes/helper.php:260
+msgid "Slide Right Medium"
+msgstr ""
+
+#: includes/helper.php:269
+msgid "Multiply"
+msgstr ""
+
+#: includes/helper.php:270
+msgid "Screen"
+msgstr ""
+
+#: includes/helper.php:271 modules/blog/widgets/blog.php:1010
+#: modules/blog/widgets/blog.php:2810 modules/flogia/widgets/flogia.php:347
+#: modules/flogia/widgets/flogia.php:677 modules/fluent/widgets/fluent.php:504
+#: modules/general/widgets/general.php:900
+#: modules/general/widgets/general.php:2909
+#: modules/isolate/widgets/isolate.php:898
+#: modules/isolate/widgets/isolate.php:2840
+#: modules/isolate/widgets/isolate.php:2916
+#: modules/woocommerce/widgets/woocommerce.php:553
+#: modules/woostand/widgets/woostand.php:1132
+msgid "Overlay"
+msgstr ""
+
+#: includes/helper.php:272
+msgid "Darken"
+msgstr ""
+
+#: includes/helper.php:273
+msgid "Lighten"
+msgstr ""
+
+#: includes/helper.php:274
+msgid "Color-Dodge"
+msgstr ""
+
+#: includes/helper.php:275
+msgid "Color-Burn"
+msgstr ""
+
+#: includes/helper.php:276
+msgid "Hard-Light"
+msgstr ""
+
+#: includes/helper.php:277
+msgid "Soft-Light"
+msgstr ""
+
+#: includes/helper.php:278
+msgid "Difference"
+msgstr ""
+
+#: includes/helper.php:279
+msgid "Exclusion"
+msgstr ""
+
+#: includes/helper.php:280
+msgid "Hue"
+msgstr ""
+
+#: includes/helper.php:281
+msgid "Saturation"
+msgstr ""
+
+#: includes/helper.php:282 modules/blog/widgets/blog.php:1798
+#: modules/blog/widgets/blog.php:1863 modules/blog/widgets/blog.php:1921
+#: modules/blog/widgets/blog.php:2120 modules/blog/widgets/blog.php:2203
+#: modules/blog/widgets/blog.php:2268 modules/blog/widgets/blog.php:2342
+#: modules/blog/widgets/blog.php:2426 modules/blog/widgets/blog.php:2545
+#: modules/blog/widgets/blog.php:2597 modules/blog/widgets/blog.php:2685
+#: modules/blog/widgets/blog.php:2767 modules/blog/widgets/blog.php:2888
+#: modules/blog/widgets/blog.php:3057 modules/blog/widgets/blog.php:3133
+#: modules/blog/widgets/blog.php:3163 modules/blog/widgets/blog.php:3207
+#: modules/blog/widgets/blog.php:3417 modules/custom/widgets/custom.php:685
+#: modules/custom/widgets/custom.php:796 modules/custom/widgets/custom.php:859
+#: modules/custom/widgets/custom.php:1037
+#: modules/custom/widgets/custom.php:1136
+#: modules/custom/widgets/custom.php:1265
+#: modules/custom/widgets/custom.php:1336
+#: modules/custom/widgets/custom.php:1423
+#: modules/custom/widgets/custom.php:1463
+#: modules/event-calendar/widgets/event-calendar.php:687
+#: modules/event-calendar/widgets/event-calendar.php:748
+#: modules/event-calendar/widgets/event-calendar.php:791
+#: modules/event-calendar/widgets/event-calendar.php:850
+#: modules/event-calendar/widgets/event-calendar.php:957
+#: modules/event-calendar/widgets/event-calendar.php:1020
+#: modules/event-calendar/widgets/event-calendar.php:1087
+#: modules/event-calendar/widgets/event-calendar.php:1191
+#: modules/flogia/widgets/flogia.php:430 modules/flogia/widgets/flogia.php:499
+#: modules/flogia/widgets/flogia.php:592 modules/flogia/widgets/flogia.php:655
+#: modules/fluent/widgets/fluent.php:587 modules/fluent/widgets/fluent.php:656
+#: modules/fluent/widgets/fluent.php:749 modules/fluent/widgets/fluent.php:806
+#: modules/fluent/widgets/fluent.php:867 modules/fluent/widgets/fluent.php:896
+#: modules/fluent/widgets/fluent.php:968 modules/fluent/widgets/fluent.php:1100
+#: modules/general/widgets/general.php:1223
+#: modules/general/widgets/general.php:1242
+#: modules/general/widgets/general.php:1791
+#: modules/general/widgets/general.php:1855
+#: modules/general/widgets/general.php:1913
+#: modules/general/widgets/general.php:2113
+#: modules/general/widgets/general.php:2226
+#: modules/general/widgets/general.php:2291
+#: modules/general/widgets/general.php:2365
+#: modules/general/widgets/general.php:2449
+#: modules/general/widgets/general.php:2507
+#: modules/general/widgets/general.php:2559
+#: modules/general/widgets/general.php:2762
+#: modules/general/widgets/general.php:2855
+#: modules/general/widgets/general.php:2987
+#: modules/general/widgets/general.php:3182
+#: modules/general/widgets/general.php:3258
+#: modules/general/widgets/general.php:3288
+#: modules/isolate/widgets/isolate.php:1687
+#: modules/isolate/widgets/isolate.php:1752
+#: modules/isolate/widgets/isolate.php:1810
+#: modules/isolate/widgets/isolate.php:2011
+#: modules/isolate/widgets/isolate.php:2094
+#: modules/isolate/widgets/isolate.php:2159
+#: modules/isolate/widgets/isolate.php:2233
+#: modules/isolate/widgets/isolate.php:2403
+#: modules/isolate/widgets/isolate.php:2461
+#: modules/isolate/widgets/isolate.php:2513
+#: modules/isolate/widgets/isolate.php:2631
+#: modules/isolate/widgets/isolate.php:2755
+#: modules/isolate/widgets/isolate.php:3024
+#: modules/isolate/widgets/isolate.php:3099
+#: modules/isolate/widgets/isolate.php:3110
+#: modules/isolate/widgets/isolate.php:3121
+#: modules/isolate/widgets/isolate.php:3229
+#: modules/isolate/widgets/isolate.php:3345
+#: modules/isolate/widgets/isolate.php:3421
+#: modules/isolate/widgets/isolate.php:3450
+#: modules/multiscroll/widgets/multiscroll.php:496
+#: modules/multiscroll/widgets/multiscroll.php:540
+#: modules/multiscroll/widgets/multiscroll.php:584
+#: modules/multiscroll/widgets/multiscroll.php:637
+#: modules/multiscroll/widgets/multiscroll.php:747
+#: modules/multiscroll/widgets/multiscroll.php:826
+#: modules/multiscroll/widgets/multiscroll.php:969
+#: modules/woocommerce/widgets/woocommerce.php:626
+#: modules/woocommerce/widgets/woocommerce.php:692
+#: modules/woocommerce/widgets/woocommerce.php:761
+#: modules/woocommerce/widgets/woocommerce.php:806
+#: modules/woocommerce/widgets/woocommerce.php:893
+#: modules/woocommerce/widgets/woocommerce.php:934
+#: modules/woocommerce/widgets/woocommerce.php:1005
+#: modules/woocommerce/widgets/woocommerce.php:1100
+#: modules/woocommerce/widgets/woocommerce.php:1134
+#: modules/woocommerce/widgets/woocommerce.php:1235
+#: modules/woocommerce/widgets/woocommerce.php:1331
+#: modules/woocommerce/widgets/woocommerce.php:1392
+#: modules/woocommerce/widgets/woocommerce.php:1422
+#: modules/woostand/widgets/woostand.php:430
+#: modules/woostand/widgets/woostand.php:496
+#: modules/woostand/widgets/woostand.php:589
+#: modules/woostand/widgets/woostand.php:651
+#: modules/woostand/widgets/woostand.php:692
+#: modules/woostand/widgets/woostand.php:763
+#: modules/woostand/widgets/woostand.php:858
+#: modules/woostand/widgets/woostand.php:892
+#: modules/woostand/widgets/woostand.php:990
+#: modules/woostand/widgets/woostand.php:1027
+#: modules/woostand/widgets/woostand.php:1064
+msgid "Color"
+msgstr ""
+
+#: includes/helper.php:283
+msgid "Luminosity"
+msgstr ""
+
+#: includes/helper.php:292 modules/blog/widgets/blog.php:910
+#: modules/blog/widgets/blog.php:1890 modules/custom/widgets/custom.php:1104
+#: modules/general/widgets/general.php:800
+#: modules/general/widgets/general.php:1882
+#: modules/isolate/widgets/isolate.php:798
+#: modules/isolate/widgets/isolate.php:1779
+msgid "Default"
+msgstr ""
+
+#: includes/helper.php:293 includes/helper.php:310 includes/helper.php:325
+#: includes/helper.php:340 includes/helper.php:358
+#: modules/custom/widgets/custom.php:337 modules/custom/widgets/custom.php:415
+#: modules/custom/widgets/custom.php:484
+msgid "Top Left"
+msgstr ""
+
+#: includes/helper.php:294 includes/helper.php:311 includes/helper.php:326
+#: includes/helper.php:341 includes/helper.php:359
+msgid "Top Center"
+msgstr ""
+
+#: includes/helper.php:295 includes/helper.php:312 includes/helper.php:327
+#: includes/helper.php:342 includes/helper.php:360
+#: modules/custom/widgets/custom.php:338 modules/custom/widgets/custom.php:416
+#: modules/custom/widgets/custom.php:485
+msgid "Top Right"
+msgstr ""
+
+#: includes/helper.php:296 includes/helper.php:328
+#: modules/blog/widgets/blog.php:430 modules/blog/widgets/blog.php:632
+#: modules/blog/widgets/blog.php:655 modules/blog/widgets/blog.php:3308
+#: modules/event-calendar/widgets/event-calendar.php:95
+#: modules/flogia/widgets/flogia.php:160 modules/flogia/widgets/flogia.php:620
+#: modules/fluent/widgets/fluent.php:194 modules/fluent/widgets/fluent.php:777
+#: modules/general/widgets/general.php:277
+#: modules/general/widgets/general.php:476
+#: modules/general/widgets/general.php:499
+#: modules/isolate/widgets/isolate.php:296
+#: modules/isolate/widgets/isolate.php:520
+#: modules/isolate/widgets/isolate.php:543
+#: modules/multiscroll/widgets/multiscroll.php:202
+#: modules/multiscroll/widgets/multiscroll.php:240
+#: modules/woocommerce/widgets/woocommerce.php:218
+#: modules/woostand/widgets/woostand.php:183
+msgid "Center"
+msgstr ""
+
+#: includes/helper.php:297 includes/helper.php:313
+#: modules/custom/widgets/custom.php:339 modules/custom/widgets/custom.php:417
+#: modules/custom/widgets/custom.php:486
+msgid "Center Left"
+msgstr ""
+
+#: includes/helper.php:298 includes/helper.php:314
+#: modules/custom/widgets/custom.php:340 modules/custom/widgets/custom.php:418
+#: modules/custom/widgets/custom.php:487
+msgid "Center Right"
+msgstr ""
+
+#: includes/helper.php:299 includes/helper.php:315 includes/helper.php:329
+#: includes/helper.php:343 includes/helper.php:354
+#: modules/custom/widgets/custom.php:341 modules/custom/widgets/custom.php:419
+#: modules/custom/widgets/custom.php:488
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/helper.php:300 includes/helper.php:316 includes/helper.php:330
+#: includes/helper.php:344 includes/helper.php:355
+#: modules/custom/widgets/custom.php:490
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/helper.php:301 includes/helper.php:317 includes/helper.php:331
+#: includes/helper.php:345 includes/helper.php:356
+#: modules/custom/widgets/custom.php:342 modules/custom/widgets/custom.php:420
+#: modules/custom/widgets/custom.php:489
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/helper.php:357
+msgid "Bottom Justify"
+msgstr ""
+
+#: includes/helper.php:361
+msgid "Top Justify"
+msgstr ""
+
+#: includes/helper.php:362
+msgid "Left Top"
+msgstr ""
+
+#: includes/helper.php:363
+msgid "Left Center"
+msgstr ""
+
+#: includes/helper.php:364
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/helper.php:365
+msgid "Right Top"
+msgstr ""
+
+#: includes/helper.php:366
+msgid "Right Center"
+msgstr ""
+
+#: includes/helper.php:367
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/helper.php:376
+msgid "Extra Small"
+msgstr ""
+
+#: includes/helper.php:377
+msgid "Small"
+msgstr ""
+
+#: includes/helper.php:378
+msgid "Medium"
+msgstr ""
+
+#: includes/helper.php:379
+msgid "Large"
+msgstr ""
+
+#: includes/helper.php:380
+msgid "Extra Large"
+msgstr ""
+
+#: includes/helper.php:389 includes/helper.php:403
+msgid "H1"
+msgstr ""
+
+#: includes/helper.php:390 includes/helper.php:404
+msgid "H2"
+msgstr ""
+
+#: includes/helper.php:391 includes/helper.php:405
+msgid "H3"
+msgstr ""
+
+#: includes/helper.php:392 includes/helper.php:406
+msgid "H4"
+msgstr ""
+
+#: includes/helper.php:393 includes/helper.php:407
+msgid "H5"
+msgstr ""
+
+#: includes/helper.php:394 includes/helper.php:408
+msgid "H6"
+msgstr ""
+
+#: includes/helper.php:409
+msgid "div"
+msgstr ""
+
+#: includes/helper.php:410
+msgid "span"
+msgstr ""
+
+#: includes/helper.php:411
+msgid "p"
+msgstr ""
+
+#: includes/helper.php:565 modules/blog/widgets/blog.php:612
+#: modules/general/widgets/general.php:456
+#: modules/isolate/widgets/isolate.php:500
+msgid "Select Menu"
+msgstr ""
+
+#: modules/blog/module.info.php:5 modules/blog/widgets/blog.php:28
+msgid "Blog"
+msgstr ""
+
+#: modules/blog/skins/skin-coral.php:16
+msgid "Coral"
+msgstr ""
+
+#: modules/blog/skins/skin-folio.php:16
+msgid "Folio"
+msgstr ""
+
+#: modules/blog/skins/skin-folio.php:40 modules/blog/skins/skin-zinest.php:182
+msgid "Written by"
+msgstr ""
+
+#: modules/blog/skins/skin-folio.php:41
+msgid "On"
+msgstr ""
+
+#: modules/blog/skins/skin-folio.php:54 modules/blog/skins/skin-zinest.php:192
+msgid "Published on"
+msgstr ""
+
+#: modules/blog/skins/skin-folio.php:69 modules/blog/skins/skin-zinest.php:203
+msgid "Number of Comments"
+msgstr ""
+
+#: modules/blog/skins/skin-zinest.php:16
+msgid "Zinest"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:86 modules/custom/widgets/custom.php:61
+#: modules/event-calendar/widgets/event-calendar.php:63
+#: modules/flogia/widgets/flogia.php:53 modules/fluent/widgets/fluent.php:60
+#: modules/general/widgets/general.php:90
+#: modules/isolate/widgets/isolate.php:85
+#: modules/woocommerce/widgets/woocommerce.php:57
+#: modules/woostand/widgets/woostand.php:57
+msgid "Layout"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:93 modules/custom/widgets/custom.php:68
+#: modules/flogia/widgets/flogia.php:60 modules/fluent/widgets/fluent.php:67
+#: modules/general/widgets/general.php:97
+#: modules/isolate/widgets/isolate.php:92
+#: modules/woocommerce/widgets/woocommerce.php:64
+#: modules/woostand/widgets/woostand.php:64
+msgid "Size Ratio"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:103 modules/custom/widgets/custom.php:78
+#: modules/flogia/widgets/flogia.php:70 modules/fluent/widgets/fluent.php:77
+#: modules/general/widgets/general.php:107
+#: modules/isolate/widgets/isolate.php:102
+#: modules/woocommerce/widgets/woocommerce.php:74
+#: modules/woostand/widgets/woostand.php:74
+msgid "Minimum Height"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:117 modules/general/widgets/general.php:121
+#: modules/isolate/widgets/isolate.php:116
+msgid "Show Logo"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:126 modules/general/widgets/general.php:130
+#: modules/isolate/widgets/isolate.php:125
+msgid "Show Menu"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:135 modules/general/widgets/general.php:139
+#: modules/isolate/widgets/isolate.php:134
+msgid "Show Offcanvas"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:144
+#: modules/event-calendar/widgets/event-calendar.php:112
+#: modules/flogia/widgets/flogia.php:84 modules/fluent/widgets/fluent.php:91
+#: modules/general/widgets/general.php:160
+#: modules/isolate/widgets/isolate.php:143
+#: modules/multiscroll/widgets/multiscroll.php:278
+#: modules/woocommerce/widgets/woocommerce.php:105
+#: modules/woostand/widgets/woostand.php:88
+msgid "Show Title"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:154 modules/blog/widgets/blog.php:286
+#: modules/general/widgets/general.php:169
+#: modules/isolate/widgets/isolate.php:152
+#: modules/multiscroll/widgets/multiscroll.php:270
+msgid "Show Sub Title"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:166 modules/blog/widgets/blog.php:295
+#: modules/general/widgets/general.php:178
+#: modules/isolate/widgets/isolate.php:161
+#: modules/multiscroll/widgets/multiscroll.php:296
+msgid "Show Button"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:178 modules/blog/widgets/blog.php:304
+#: modules/event-calendar/widgets/event-calendar.php:131
+#: modules/general/widgets/general.php:187
+#: modules/isolate/widgets/isolate.php:170
+#: modules/woocommerce/widgets/woocommerce.php:124
+msgid "Show Excerpt"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:190 modules/blog/widgets/blog.php:313
+#: modules/custom/widgets/custom.php:110 modules/fluent/widgets/fluent.php:150
+#: modules/general/widgets/general.php:197
+#: modules/general/widgets/general.php:209
+#: modules/isolate/widgets/isolate.php:192
+#: modules/isolate/widgets/isolate.php:225
+msgid "Show Social Icon"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:202 modules/blog/widgets/blog.php:322
+#: modules/fluent/widgets/fluent.php:177
+#: modules/general/widgets/general.php:219
+#: modules/isolate/widgets/isolate.php:204
+#: modules/isolate/widgets/isolate.php:237
+#: modules/woocommerce/widgets/woocommerce.php:160
+msgid "Show Scroll Button"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:214 modules/blog/widgets/blog.php:331
+#: modules/flogia/widgets/flogia.php:93 modules/fluent/widgets/fluent.php:123
+#: modules/woocommerce/widgets/woocommerce.php:115
+#: modules/woostand/widgets/woostand.php:98
+msgid "Show Category"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:226 modules/blog/widgets/blog.php:343
+msgid "Show Meta"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:238 modules/blog/widgets/blog.php:355
+msgid "Show Featured Post"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:250 modules/blog/widgets/blog.php:367
+#: modules/flogia/widgets/flogia.php:102 modules/fluent/widgets/fluent.php:132
+msgid "Show Admin Meta"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:262 modules/blog/widgets/blog.php:379
+#: modules/custom/widgets/custom.php:92 modules/general/widgets/general.php:228
+#: modules/isolate/widgets/isolate.php:247
+#: modules/woocommerce/widgets/woocommerce.php:169
+#: modules/woostand/widgets/woostand.php:134
+msgid "Show Arrows"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:274 modules/blog/widgets/blog.php:388
+#: modules/custom/widgets/custom.php:101
+#: modules/general/widgets/general.php:237
+#: modules/isolate/widgets/isolate.php:256
+#: modules/woocommerce/widgets/woocommerce.php:178
+#: modules/woostand/widgets/woostand.php:125
+msgid "Show Dots"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:399 modules/flogia/widgets/flogia.php:129
+#: modules/fluent/widgets/fluent.php:100
+#: modules/general/widgets/general.php:246
+#: modules/isolate/widgets/isolate.php:265
+#: modules/multiscroll/widgets/multiscroll.php:314
+#: modules/woocommerce/widgets/woocommerce.php:187
+#: modules/woostand/widgets/woostand.php:152
+msgid "Title HTML Tag"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:422 modules/blog/widgets/blog.php:3300
+#: modules/event-calendar/widgets/event-calendar.php:87
+#: modules/flogia/widgets/flogia.php:152 modules/flogia/widgets/flogia.php:612
+#: modules/fluent/widgets/fluent.php:186 modules/fluent/widgets/fluent.php:769
+#: modules/general/widgets/general.php:269
+#: modules/isolate/widgets/isolate.php:288
+#: modules/multiscroll/widgets/multiscroll.php:232
+#: modules/woocommerce/widgets/woocommerce.php:210
+#: modules/woostand/widgets/woostand.php:175
+msgid "Alignment"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:426 modules/blog/widgets/blog.php:628
+#: modules/blog/widgets/blog.php:651 modules/blog/widgets/blog.php:3304
+#: modules/custom/widgets/custom.php:1014
+#: modules/event-calendar/widgets/event-calendar.php:91
+#: modules/flogia/widgets/flogia.php:156 modules/flogia/widgets/flogia.php:616
+#: modules/fluent/widgets/fluent.php:190 modules/fluent/widgets/fluent.php:773
+#: modules/general/widgets/general.php:273
+#: modules/general/widgets/general.php:472
+#: modules/general/widgets/general.php:495
+#: modules/general/widgets/general.php:688
+#: modules/general/widgets/general.php:712
+#: modules/isolate/widgets/isolate.php:292
+#: modules/isolate/widgets/isolate.php:317
+#: modules/isolate/widgets/isolate.php:516
+#: modules/isolate/widgets/isolate.php:539
+#: modules/multiscroll/widgets/multiscroll.php:203
+#: modules/multiscroll/widgets/multiscroll.php:236
+#: modules/multiscroll/widgets/multiscroll.php:379
+#: modules/woocommerce/widgets/woocommerce.php:214
+#: modules/woostand/widgets/woostand.php:179
+msgid "Left"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:434 modules/blog/widgets/blog.php:636
+#: modules/blog/widgets/blog.php:659 modules/blog/widgets/blog.php:3312
+#: modules/custom/widgets/custom.php:1015
+#: modules/event-calendar/widgets/event-calendar.php:99
+#: modules/flogia/widgets/flogia.php:164 modules/flogia/widgets/flogia.php:624
+#: modules/fluent/widgets/fluent.php:198 modules/fluent/widgets/fluent.php:781
+#: modules/general/widgets/general.php:281
+#: modules/general/widgets/general.php:480
+#: modules/general/widgets/general.php:503
+#: modules/general/widgets/general.php:693
+#: modules/general/widgets/general.php:717
+#: modules/isolate/widgets/isolate.php:300
+#: modules/isolate/widgets/isolate.php:322
+#: modules/isolate/widgets/isolate.php:524
+#: modules/isolate/widgets/isolate.php:547
+#: modules/multiscroll/widgets/multiscroll.php:204
+#: modules/multiscroll/widgets/multiscroll.php:244
+#: modules/multiscroll/widgets/multiscroll.php:378
+#: modules/woocommerce/widgets/woocommerce.php:222
+#: modules/woostand/widgets/woostand.php:187
+msgid "Right"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:452 modules/blog/widgets/blog.php:1655
+#: modules/general/widgets/general.php:296
+#: modules/general/widgets/general.php:1617
+#: modules/isolate/widgets/isolate.php:340
+#: modules/isolate/widgets/isolate.php:1544
+msgid "Header"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:462 modules/blog/widgets/blog.php:1677
+#: modules/general/widgets/general.php:306
+#: modules/general/widgets/general.php:1670
+#: modules/isolate/widgets/isolate.php:350
+#: modules/isolate/widgets/isolate.php:1566
+msgid "Logo"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:469 modules/general/widgets/general.php:313
+#: modules/isolate/widgets/isolate.php:357
+msgid "Select Logo Type"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:473 modules/general/widgets/general.php:317
+#: modules/isolate/widgets/isolate.php:361
+msgid "Text"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:478 modules/general/widgets/general.php:322
+#: modules/general/widgets/general.php:1227
+#: modules/general/widgets/general.php:1254
+#: modules/isolate/widgets/isolate.php:366
+#: modules/isolate/widgets/isolate.php:1218
+#: modules/multiscroll/widgets/multiscroll.php:171
+msgid "Image"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:493 modules/general/widgets/general.php:337
+#: modules/isolate/widgets/isolate.php:381
+msgid "Logo Text"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:498 modules/general/widgets/general.php:342
+#: modules/isolate/widgets/isolate.php:386
+msgid "Brand"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:499 modules/general/widgets/general.php:343
+#: modules/isolate/widgets/isolate.php:387
+msgid "Your Brand Name"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:510 modules/general/widgets/general.php:354
+#: modules/isolate/widgets/isolate.php:398
+msgid "Choose Image"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:529
+#: modules/event-calendar/widgets/event-calendar.php:195
+#: modules/general/widgets/general.php:373
+#: modules/isolate/widgets/isolate.php:417
+#: modules/isolate/widgets/isolate.php:1248
+#: modules/multiscroll/widgets/multiscroll.php:188
+msgid "Image Size"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:542 modules/general/widgets/general.php:386
+#: modules/isolate/widgets/isolate.php:430
+msgid "Logo Image Width"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:567 modules/general/widgets/general.php:411
+#: modules/isolate/widgets/isolate.php:455
+msgid "Show Custom Link"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:579 modules/general/widgets/general.php:423
+#: modules/isolate/widgets/isolate.php:467
+msgid "URL"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:597 modules/blog/widgets/blog.php:1779
+#: modules/general/widgets/general.php:441
+#: modules/general/widgets/general.php:1772
+#: modules/isolate/widgets/isolate.php:485
+#: modules/isolate/widgets/isolate.php:1668
+msgid "Menu"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:604 modules/general/widgets/general.php:448
+#: modules/isolate/widgets/isolate.php:492
+msgid "Dynamic Menu"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:624 modules/general/widgets/general.php:468
+#: modules/isolate/widgets/isolate.php:512
+msgid "Dropdown Alignment"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:647 modules/general/widgets/general.php:491
+#: modules/isolate/widgets/isolate.php:535
+msgid "Item Alignment"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:673 modules/general/widgets/general.php:517
+#: modules/isolate/widgets/isolate.php:561
+msgid "Dropdown Padding"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:686 modules/general/widgets/general.php:530
+#: modules/isolate/widgets/isolate.php:574
+msgid "Dropdown Width"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:705 modules/general/widgets/general.php:549
+#: modules/isolate/widgets/isolate.php:593
+msgid "Delay Show"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:720 modules/general/widgets/general.php:564
+#: modules/isolate/widgets/isolate.php:608
+msgid "Delay Hide"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:736 modules/general/widgets/general.php:580
+#: modules/isolate/widgets/isolate.php:624
+msgid "Dropdown Duration"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:752 modules/general/widgets/general.php:596
+#: modules/isolate/widgets/isolate.php:640
+msgid "Dropdown Offset"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:767 modules/general/widgets/general.php:611
+#: modules/isolate/widgets/isolate.php:655
+msgid "Menu Items"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:771 modules/general/widgets/general.php:615
+#: modules/isolate/widgets/isolate.php:659
+msgid "About"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:775 modules/general/widgets/general.php:619
+#: modules/isolate/widgets/isolate.php:663
+msgid "Projects"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:779 modules/general/widgets/general.php:623
+#: modules/isolate/widgets/isolate.php:667
+msgid "Services"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:783 modules/general/widgets/general.php:627
+#: modules/isolate/widgets/isolate.php:671
+msgid "Contacts"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:791 modules/general/widgets/general.php:635
+#: modules/isolate/widgets/isolate.php:679
+msgid "Title & Content"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:794 modules/general/widgets/general.php:638
+#: modules/isolate/widgets/isolate.php:682
+msgid "Menu Title"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:799 modules/blog/widgets/blog.php:1369
+#: modules/custom/widgets/custom.php:226 modules/fluent/widgets/fluent.php:287
+#: modules/general/widgets/general.php:643
+#: modules/general/widgets/general.php:1330
+#: modules/isolate/widgets/isolate.php:687
+#: modules/isolate/widgets/isolate.php:1295
+#: modules/woocommerce/widgets/woocommerce.php:381
+msgid "Link"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:821 modules/blog/widgets/blog.php:831
+#: modules/blog/widgets/blog.php:906 modules/blog/widgets/blog.php:1967
+#: modules/general/widgets/general.php:665
+#: modules/general/widgets/general.php:675
+#: modules/general/widgets/general.php:796
+#: modules/general/widgets/general.php:1958
+#: modules/isolate/widgets/isolate.php:709
+#: modules/isolate/widgets/isolate.php:719
+#: modules/isolate/widgets/isolate.php:794
+#: modules/isolate/widgets/isolate.php:1856
+msgid "Offcanvas"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:828 modules/blog/widgets/blog.php:1477
+#: modules/blog/widgets/blog.php:1630 modules/general/widgets/general.php:672
+#: modules/general/widgets/general.php:1189
+#: modules/general/widgets/general.php:1442
+#: modules/isolate/widgets/isolate.php:716
+#: modules/isolate/widgets/isolate.php:1189
+#: modules/isolate/widgets/isolate.php:1407
+#: modules/multiscroll/widgets/multiscroll.php:132
+#: modules/woocommerce/widgets/woocommerce.php:457
+msgid "Button Text"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:838 modules/blog/widgets/blog.php:1078
+#: modules/blog/widgets/blog.php:1462 modules/fluent/widgets/fluent.php:239
+#: modules/general/widgets/general.php:728
+#: modules/general/widgets/general.php:968
+#: modules/general/widgets/general.php:1427
+#: modules/isolate/widgets/isolate.php:726
+#: modules/isolate/widgets/isolate.php:966
+#: modules/isolate/widgets/isolate.php:1392
+#: modules/woocommerce/widgets/woocommerce.php:442
+msgid "Offset"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:855 modules/general/widgets/general.php:745
+#: modules/isolate/widgets/isolate.php:743
+msgid "Button Icon"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:867 modules/fluent/widgets/fluent.php:1066
+#: modules/general/widgets/general.php:757
+#: modules/isolate/widgets/isolate.php:755
+msgid "Icon Position"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:871 modules/general/widgets/general.php:761
+#: modules/isolate/widgets/isolate.php:759
+msgid "Before"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:872 modules/general/widgets/general.php:762
+#: modules/isolate/widgets/isolate.php:760
+msgid "After"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:883 modules/blog/widgets/blog.php:2969
+#: modules/custom/widgets/custom.php:984 modules/fluent/widgets/fluent.php:1049
+#: modules/general/widgets/general.php:773
+#: modules/general/widgets/general.php:3098
+#: modules/general/widgets/general.php:3132
+#: modules/isolate/widgets/isolate.php:771
+#: modules/isolate/widgets/isolate.php:3310
+#: modules/woocommerce/widgets/woocommerce.php:1298
+msgid "Icon Spacing"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:911
+#: modules/event-calendar/widgets/event-calendar.php:161
+#: modules/general/widgets/general.php:801
+#: modules/isolate/widgets/isolate.php:799
+msgid "Custom Link"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:919 modules/general/widgets/general.php:809
+#: modules/isolate/widgets/isolate.php:807
+msgid "Offcanvas Selector"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:920 modules/general/widgets/general.php:810
+#: modules/isolate/widgets/isolate.php:808
+msgid ""
+"Set your offcanvas selector here. For example: <b>.custom-link</b> or "
+"<b>#customLink</b>. Set this selector where you want to link this offcanvas."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:922 modules/general/widgets/general.php:812
+#: modules/isolate/widgets/isolate.php:810
+msgid "#bdt-custom-offcanvas"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:932 modules/general/widgets/general.php:822
+#: modules/isolate/widgets/isolate.php:820
+msgid "Select Source"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:936 modules/general/widgets/general.php:826
+#: modules/isolate/widgets/isolate.php:824
+msgid "Sidebar"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:937 modules/general/widgets/general.php:827
+#: modules/isolate/widgets/isolate.php:825
+msgid "Elementor Template"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:945 modules/general/widgets/general.php:835
+#: modules/isolate/widgets/isolate.php:833
+msgid "Choose Template"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:957 modules/general/widgets/general.php:847
+#: modules/isolate/widgets/isolate.php:845
+msgid "Choose Sidebar"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:969 modules/general/widgets/general.php:859
+#: modules/isolate/widgets/isolate.php:857
+msgid "Width"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:994 modules/blog/widgets/blog.php:1196
+#: modules/blog/widgets/blog.php:1206 modules/general/widgets/general.php:884
+#: modules/general/widgets/general.php:1086
+#: modules/general/widgets/general.php:1096
+#: modules/isolate/widgets/isolate.php:882
+#: modules/isolate/widgets/isolate.php:1084
+#: modules/isolate/widgets/isolate.php:1094
+msgid "Custom Content Before"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1002 modules/blog/widgets/blog.php:1219
+#: modules/blog/widgets/blog.php:1230 modules/general/widgets/general.php:892
+#: modules/general/widgets/general.php:1109
+#: modules/general/widgets/general.php:1120
+#: modules/isolate/widgets/isolate.php:890
+#: modules/isolate/widgets/isolate.php:1107
+#: modules/isolate/widgets/isolate.php:1118
+msgid "Custom Content After"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1018 modules/general/widgets/general.php:908
+#: modules/isolate/widgets/isolate.php:906
+msgid "Animations"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1022 modules/custom/widgets/custom.php:607
+#: modules/general/skins/skin-slide.php:15
+#: modules/general/widgets/general.php:912
+#: modules/general/widgets/general.php:1532
+#: modules/general/widgets/general.php:1552
+#: modules/isolate/widgets/isolate.php:910
+msgid "Slide"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1023 modules/custom/widgets/custom.php:610
+#: modules/general/widgets/general.php:913
+#: modules/general/widgets/general.php:1535
+#: modules/general/widgets/general.php:1555
+#: modules/isolate/widgets/isolate.php:911
+msgid "Push"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1024 modules/general/widgets/general.php:914
+#: modules/isolate/widgets/isolate.php:912
+msgid "Reveal"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1033 modules/general/widgets/general.php:923
+#: modules/isolate/widgets/isolate.php:921
+msgid "Flip"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1041 modules/general/widgets/general.php:931
+#: modules/isolate/widgets/isolate.php:929
+msgid "Close Button"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1056 modules/general/widgets/general.php:946
+#: modules/isolate/widgets/isolate.php:944
+msgid "Enable Sticky"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1059 modules/general/widgets/general.php:949
+#: modules/isolate/widgets/isolate.php:947
+msgid "Set sticky options by enable this option."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1070 modules/general/widgets/general.php:960
+#: modules/isolate/widgets/isolate.php:958
+msgid "Sticky"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1092 modules/general/widgets/general.php:982
+#: modules/isolate/widgets/isolate.php:980
+msgid "Active Background Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1106 modules/general/widgets/general.php:996
+#: modules/isolate/widgets/isolate.php:994
+msgid "Active Padding"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1121 modules/general/widgets/general.php:1011
+#: modules/isolate/widgets/isolate.php:1009
+msgid "Active Box Shadow"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1133 modules/blog/widgets/blog.php:1501
+#: modules/flogia/widgets/flogia.php:255 modules/fluent/widgets/fluent.php:413
+#: modules/general/widgets/general.php:1023
+#: modules/general/widgets/general.php:1466
+#: modules/isolate/widgets/isolate.php:1021
+#: modules/isolate/widgets/isolate.php:1431
+#: modules/woocommerce/widgets/woocommerce.php:481
+#: modules/woostand/widgets/woostand.php:326
+msgid "Animation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1145 modules/general/widgets/general.php:1035
+#: modules/isolate/widgets/isolate.php:1033
+msgid "Scroll Until"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1146 modules/general/widgets/general.php:1036
+#: modules/isolate/widgets/isolate.php:1034
+msgid ""
+"If you don't want to scroll after specific section so set that section ID/"
+"CLASS here. for example: #section1 or .section1 it's support ID/CLASS"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1157 modules/general/widgets/general.php:1047
+#: modules/isolate/widgets/isolate.php:1045
+msgid "Sticky on Scroll Up"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1160 modules/general/widgets/general.php:1050
+#: modules/isolate/widgets/isolate.php:1048
+msgid "Set sticky options when you scroll up your mouse."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1171 modules/general/widgets/general.php:1061
+#: modules/isolate/widgets/isolate.php:1059
+msgid "Turn Off"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1175 modules/general/widgets/general.php:1065
+#: modules/isolate/widgets/isolate.php:1063
+msgid "On Tablet"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1179 modules/general/widgets/general.php:1069
+#: modules/isolate/widgets/isolate.php:1067
+msgid "On Mobile"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1209 modules/general/widgets/general.php:1099
+#: modules/isolate/widgets/isolate.php:1097
+msgid "This is your custom content for before of your offcanvas."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1233 modules/general/widgets/general.php:1123
+#: modules/isolate/widgets/isolate.php:1121
+msgid "This is your custom content for after of your offcanvas."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1243
+#: modules/event-calendar/widgets/event-calendar.php:335
+#: modules/flogia/widgets/flogia.php:179 modules/fluent/widgets/fluent.php:337
+#: modules/woocommerce/widgets/woocommerce.php:237
+#: modules/woostand/widgets/woostand.php:202
+msgid "Query"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1250
+#: modules/event-calendar/widgets/event-calendar.php:343
+#: modules/flogia/widgets/flogia.php:186 modules/fluent/widgets/fluent.php:344
+#: modules/woocommerce/widgets/woocommerce.php:244
+#: modules/woostand/widgets/woostand.php:209
+msgctxt "Posts Query Control"
+msgid "Source"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1253
+#: modules/event-calendar/widgets/event-calendar.php:346
+#: modules/flogia/widgets/flogia.php:189 modules/fluent/widgets/fluent.php:347
+#: modules/woocommerce/widgets/woocommerce.php:247
+#: modules/woostand/widgets/woostand.php:212
+msgid "Show All"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1254
+#: modules/event-calendar/widgets/event-calendar.php:347
+#: modules/flogia/widgets/flogia.php:190 modules/fluent/widgets/fluent.php:348
+#: modules/woocommerce/widgets/woocommerce.php:248
+#: modules/woostand/widgets/woostand.php:213
+msgid "Manual Selection"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1265
+#: modules/event-calendar/widgets/event-calendar.php:356
+#: modules/flogia/widgets/flogia.php:200 modules/fluent/widgets/fluent.php:358
+#: modules/woocommerce/widgets/woocommerce.php:265
+#: modules/woostand/widgets/woostand.php:230
+msgid "Categories"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1281 modules/blog/widgets/blog.php:1293
+#: modules/event-calendar/widgets/event-calendar.php:426
+#: modules/flogia/widgets/flogia.php:215 modules/fluent/widgets/fluent.php:373
+msgid "Limit"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1303
+#: modules/event-calendar/widgets/event-calendar.php:435
+#: modules/flogia/widgets/flogia.php:224 modules/fluent/widgets/fluent.php:382
+#: modules/woocommerce/widgets/woocommerce.php:330
+#: modules/woostand/widgets/woostand.php:295
+msgid "Order by"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1307
+#: modules/event-calendar/widgets/event-calendar.php:737
+#: modules/flogia/widgets/flogia.php:228 modules/fluent/widgets/fluent.php:386
+#: modules/fluent/widgets/fluent.php:796
+#: modules/woocommerce/widgets/woocommerce.php:334
+#: modules/woostand/widgets/woostand.php:299
+msgid "Date"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1308 modules/blog/widgets/blog.php:1360
+#: modules/blog/widgets/blog.php:2396 modules/custom/widgets/custom.php:217
+#: modules/event-calendar/widgets/event-calendar.php:440
+#: modules/event-calendar/widgets/event-calendar.php:676
+#: modules/flogia/widgets/flogia.php:229 modules/flogia/widgets/flogia.php:403
+#: modules/fluent/widgets/fluent.php:278 modules/fluent/widgets/fluent.php:387
+#: modules/fluent/widgets/fluent.php:560 modules/fluent/widgets/fluent.php:889
+#: modules/general/widgets/general.php:1168
+#: modules/general/widgets/general.php:1321
+#: modules/general/widgets/general.php:2419
+#: modules/isolate/widgets/isolate.php:1168
+#: modules/isolate/widgets/isolate.php:1286
+#: modules/isolate/widgets/isolate.php:2373
+#: modules/multiscroll/widgets/multiscroll.php:102
+#: modules/multiscroll/widgets/multiscroll.php:485
+#: modules/woocommerce/widgets/woocommerce.php:372
+#: modules/woocommerce/widgets/woocommerce.php:596
+#: modules/woostand/widgets/woostand.php:420
+msgid "Title"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1309 modules/blog/widgets/blog.php:3182
+#: modules/blog/widgets/blog.php:3194
+#: modules/event-calendar/widgets/event-calendar.php:441
+#: modules/flogia/widgets/flogia.php:230 modules/flogia/widgets/flogia.php:489
+#: modules/fluent/widgets/fluent.php:388 modules/fluent/widgets/fluent.php:646
+#: modules/fluent/widgets/fluent.php:857
+#: modules/woocommerce/widgets/woocommerce.php:674
+#: modules/woostand/widgets/woostand.php:478
+msgid "Category"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1310
+#: modules/event-calendar/widgets/event-calendar.php:442
+#: modules/flogia/widgets/flogia.php:231 modules/fluent/widgets/fluent.php:389
+#: modules/woocommerce/widgets/woocommerce.php:337
+#: modules/woostand/widgets/woostand.php:302
+msgid "Random"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1318
+#: modules/event-calendar/widgets/event-calendar.php:450
+#: modules/flogia/widgets/flogia.php:239 modules/fluent/widgets/fluent.php:397
+#: modules/woocommerce/widgets/woocommerce.php:345
+#: modules/woostand/widgets/woostand.php:310
+msgid "Order"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1322
+#: modules/event-calendar/widgets/event-calendar.php:454
+#: modules/flogia/widgets/flogia.php:243 modules/fluent/widgets/fluent.php:401
+#: modules/woocommerce/widgets/woocommerce.php:349
+#: modules/woostand/widgets/woostand.php:314
+msgid "Descending"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1323
+#: modules/event-calendar/widgets/event-calendar.php:455
+#: modules/flogia/widgets/flogia.php:244 modules/fluent/widgets/fluent.php:402
+#: modules/woocommerce/widgets/woocommerce.php:350
+#: modules/woostand/widgets/woostand.php:315
+msgid "Ascending"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1336 modules/blog/widgets/blog.php:1347
+#: modules/blog/widgets/blog.php:2855 modules/blog/widgets/blog.php:2867
+#: modules/custom/widgets/custom.php:205 modules/custom/widgets/custom.php:839
+#: modules/fluent/widgets/fluent.php:266 modules/fluent/widgets/fluent.php:939
+#: modules/general/widgets/general.php:1297
+#: modules/general/widgets/general.php:1308
+#: modules/general/widgets/general.php:2954
+#: modules/general/widgets/general.php:2966
+#: modules/isolate/widgets/isolate.php:1261
+#: modules/isolate/widgets/isolate.php:1272
+#: modules/isolate/widgets/isolate.php:3139
+#: modules/isolate/widgets/isolate.php:3179
+msgid "Social Icon"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1371 modules/blog/widgets/blog.php:1390
+#: modules/custom/widgets/custom.php:228 modules/custom/widgets/custom.php:247
+#: modules/fluent/widgets/fluent.php:289 modules/fluent/widgets/fluent.php:308
+#: modules/general/widgets/general.php:1332
+#: modules/general/widgets/general.php:1355
+#: modules/isolate/widgets/isolate.php:1297
+#: modules/isolate/widgets/isolate.php:1320
+#: modules/woocommerce/widgets/woocommerce.php:383
+#: modules/woocommerce/widgets/woocommerce.php:394
+msgid "http://www.facebook.com/bdthemes/"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1378 modules/custom/widgets/custom.php:235
+#: modules/fluent/widgets/fluent.php:296
+#: modules/general/widgets/general.php:1339
+#: modules/isolate/widgets/isolate.php:1304
+msgid "Choose Icon"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1398 modules/custom/widgets/custom.php:255
+#: modules/fluent/widgets/fluent.php:313
+#: modules/general/widgets/general.php:1363
+#: modules/isolate/widgets/isolate.php:1328
+#: modules/woocommerce/widgets/woocommerce.php:398
+msgid "http://www.twitter.com/bdthemes/"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1406 modules/custom/widgets/custom.php:263
+#: modules/fluent/widgets/fluent.php:323
+#: modules/general/widgets/general.php:1371
+#: modules/isolate/widgets/isolate.php:1336
+#: modules/woocommerce/widgets/woocommerce.php:402
+msgid "http://www.instagram.com/bdthemes/"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1424 modules/blog/widgets/blog.php:1435
+#: modules/blog/widgets/blog.php:1480 modules/blog/widgets/blog.php:1481
+#: modules/blog/widgets/blog.php:3100 modules/blog/widgets/blog.php:3112
+#: modules/fluent/widgets/fluent.php:213 modules/fluent/widgets/fluent.php:1142
+#: modules/general/widgets/general.php:1389
+#: modules/general/widgets/general.php:1400
+#: modules/general/widgets/general.php:1445
+#: modules/general/widgets/general.php:1446
+#: modules/general/widgets/general.php:3225
+#: modules/general/widgets/general.php:3237
+#: modules/isolate/widgets/isolate.php:1354
+#: modules/isolate/widgets/isolate.php:1365
+#: modules/isolate/widgets/isolate.php:1410
+#: modules/isolate/widgets/isolate.php:1411
+#: modules/isolate/widgets/isolate.php:3388
+#: modules/isolate/widgets/isolate.php:3400
+#: modules/woocommerce/widgets/woocommerce.php:416
+#: modules/woocommerce/widgets/woocommerce.php:460
+#: modules/woocommerce/widgets/woocommerce.php:461
+#: modules/woocommerce/widgets/woocommerce.php:1372
+msgid "Scroll Down"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1446 modules/fluent/widgets/fluent.php:223
+#: modules/general/widgets/general.php:1411
+#: modules/isolate/widgets/isolate.php:1376
+#: modules/woocommerce/widgets/woocommerce.php:426
+msgid "Duration"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1488 modules/custom/widgets/custom.php:126
+#: modules/fluent/widgets/fluent.php:254
+#: modules/general/widgets/general.php:1453
+#: modules/isolate/widgets/isolate.php:1418
+#: modules/woocommerce/widgets/woocommerce.php:468
+msgid "Section ID"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1491 modules/fluent/widgets/fluent.php:257
+#: modules/general/widgets/general.php:1456
+#: modules/isolate/widgets/isolate.php:1421
+#: modules/woocommerce/widgets/woocommerce.php:471
+msgid ""
+"By clicking this scroll button, to which section in your page you want to "
+"go? Just write that's section ID here such 'my-header'. N.B: No need to add "
+"'#'."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1508 modules/custom/widgets/custom.php:549
+#: modules/event-calendar/widgets/event-calendar.php:599
+#: modules/flogia/widgets/flogia.php:262 modules/fluent/widgets/fluent.php:420
+#: modules/general/widgets/general.php:1473
+#: modules/isolate/widgets/isolate.php:1438
+#: modules/woocommerce/widgets/woocommerce.php:488
+#: modules/woostand/widgets/woostand.php:333
+msgid "Loop"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1517 modules/custom/widgets/custom.php:558
+#: modules/event-calendar/widgets/event-calendar.php:552
+#: modules/flogia/widgets/flogia.php:271 modules/fluent/widgets/fluent.php:429
+#: modules/general/widgets/general.php:1482
+#: modules/isolate/widgets/isolate.php:1447
+#: modules/woocommerce/widgets/woocommerce.php:497
+#: modules/woostand/widgets/woostand.php:342
+msgid "Autoplay"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1526 modules/custom/widgets/custom.php:567
+#: modules/flogia/widgets/flogia.php:280 modules/fluent/widgets/fluent.php:438
+#: modules/general/widgets/general.php:1491
+#: modules/isolate/widgets/isolate.php:1456
+#: modules/woocommerce/widgets/woocommerce.php:506
+#: modules/woostand/widgets/woostand.php:351
+msgid "Autoplay Interval"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1538 modules/custom/widgets/custom.php:579
+#: modules/event-calendar/widgets/event-calendar.php:574
+#: modules/flogia/widgets/flogia.php:292 modules/fluent/widgets/fluent.php:450
+#: modules/general/widgets/general.php:1503
+#: modules/isolate/widgets/isolate.php:1468
+#: modules/woocommerce/widgets/woocommerce.php:518
+#: modules/woostand/widgets/woostand.php:363
+msgid "Pause on Hover"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1546 modules/custom/widgets/custom.php:587
+#: modules/flogia/widgets/flogia.php:300 modules/fluent/widgets/fluent.php:458
+#: modules/general/widgets/general.php:1511
+#: modules/isolate/widgets/isolate.php:1476
+#: modules/woocommerce/widgets/woocommerce.php:526
+#: modules/woostand/widgets/woostand.php:371
+msgid "Animation Speed"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1561 modules/flogia/widgets/flogia.php:315
+#: modules/fluent/widgets/fluent.php:473
+#: modules/general/widgets/general.php:1565
+#: modules/isolate/widgets/isolate.php:1491
+#: modules/woostand/widgets/woostand.php:386
+msgid "Kenburns Animation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1570 modules/flogia/widgets/flogia.php:324
+#: modules/fluent/widgets/fluent.php:482
+#: modules/general/widgets/general.php:1574
+#: modules/isolate/widgets/isolate.php:1500
+#: modules/woostand/widgets/woostand.php:395
+msgid "Kenburn Reverse"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1581 modules/general/widgets/general.php:1585
+#: modules/isolate/widgets/isolate.php:1511
+msgid "Show Logo Animation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1591 modules/general/widgets/general.php:1595
+#: modules/isolate/widgets/isolate.php:1521
+msgid "Show Menu Animation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1600 modules/general/widgets/general.php:1604
+#: modules/isolate/widgets/isolate.php:1530
+msgid "Show Offcanvas Animation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1612 modules/blog/widgets/blog.php:1622
+#: modules/woostand/widgets/woostand.php:1112
+msgid "Additional"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1632 modules/blog/widgets/blog.php:1633
+msgid "Read More"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1641
+#: modules/event-calendar/widgets/event-calendar.php:140
+msgid "Excerpt Length"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1663 modules/blog/widgets/blog.php:1811
+#: modules/blog/widgets/blog.php:1875 modules/blog/widgets/blog.php:1891
+#: modules/blog/widgets/blog.php:1944 modules/blog/widgets/blog.php:2131
+#: modules/blog/widgets/blog.php:2214 modules/blog/widgets/blog.php:2279
+#: modules/blog/widgets/blog.php:2354 modules/blog/widgets/blog.php:2699
+#: modules/blog/widgets/blog.php:2780 modules/blog/widgets/blog.php:2815
+#: modules/blog/widgets/blog.php:3218 modules/blog/widgets/blog.php:3476
+#: modules/blog/widgets/blog.php:3630 modules/custom/widgets/custom.php:632
+#: modules/custom/widgets/custom.php:697 modules/custom/widgets/custom.php:808
+#: modules/custom/widgets/custom.php:1153
+#: modules/custom/widgets/custom.php:1282 modules/flogia/widgets/flogia.php:352
+#: modules/flogia/widgets/flogia.php:510 modules/fluent/widgets/fluent.php:509
+#: modules/fluent/widgets/fluent.php:667
+#: modules/general/widgets/general.php:1217
+#: modules/general/widgets/general.php:1625
+#: modules/general/widgets/general.php:1803
+#: modules/general/widgets/general.php:1867
+#: modules/general/widgets/general.php:1883
+#: modules/general/widgets/general.php:1936
+#: modules/general/widgets/general.php:2124
+#: modules/general/widgets/general.php:2237
+#: modules/general/widgets/general.php:2302
+#: modules/general/widgets/general.php:2377
+#: modules/general/widgets/general.php:2776
+#: modules/general/widgets/general.php:2868
+#: modules/general/widgets/general.php:2914
+#: modules/general/widgets/general.php:3342
+#: modules/general/widgets/general.php:3449
+#: modules/general/widgets/general.php:3568
+#: modules/isolate/widgets/isolate.php:1552
+#: modules/isolate/widgets/isolate.php:1700
+#: modules/isolate/widgets/isolate.php:1764
+#: modules/isolate/widgets/isolate.php:1780
+#: modules/isolate/widgets/isolate.php:1833
+#: modules/isolate/widgets/isolate.php:2022
+#: modules/isolate/widgets/isolate.php:2105
+#: modules/isolate/widgets/isolate.php:2170
+#: modules/isolate/widgets/isolate.php:2245
+#: modules/isolate/widgets/isolate.php:2286
+#: modules/isolate/widgets/isolate.php:2328
+#: modules/isolate/widgets/isolate.php:2525
+#: modules/isolate/widgets/isolate.php:2539
+#: modules/isolate/widgets/isolate.php:2646
+#: modules/isolate/widgets/isolate.php:2661
+#: modules/isolate/widgets/isolate.php:2673
+#: modules/isolate/widgets/isolate.php:2685
+#: modules/isolate/widgets/isolate.php:2769
+#: modules/isolate/widgets/isolate.php:2784
+#: modules/isolate/widgets/isolate.php:2796
+#: modules/isolate/widgets/isolate.php:2808
+#: modules/isolate/widgets/isolate.php:2845
+#: modules/isolate/widgets/isolate.php:2921
+#: modules/isolate/widgets/isolate.php:3035
+#: modules/isolate/widgets/isolate.php:3501
+#: modules/isolate/widgets/isolate.php:3658
+#: modules/multiscroll/widgets/multiscroll.php:428
+#: modules/woocommerce/widgets/woocommerce.php:558
+#: modules/woocommerce/widgets/woocommerce.php:703
+#: modules/woocommerce/widgets/woocommerce.php:772
+#: modules/woocommerce/widgets/woocommerce.php:1016
+#: modules/woocommerce/widgets/woocommerce.php:1089
+#: modules/woocommerce/widgets/woocommerce.php:1145
+#: modules/woocommerce/widgets/woocommerce.php:1473
+#: modules/woocommerce/widgets/woocommerce.php:1561
+#: modules/woostand/widgets/woostand.php:507
+#: modules/woostand/widgets/woostand.php:600
+#: modules/woostand/widgets/woostand.php:774
+#: modules/woostand/widgets/woostand.php:847
+#: modules/woostand/widgets/woostand.php:903
+#: modules/woostand/widgets/woostand.php:1137
+msgid "Background"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1687 modules/general/widgets/general.php:1680
+#: modules/isolate/widgets/isolate.php:1576
+msgid "Logo Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1703 modules/general/widgets/general.php:1696
+#: modules/isolate/widgets/isolate.php:1592
+msgid "Logo Hover Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1731 modules/blog/widgets/blog.php:2053
+#: modules/blog/widgets/blog.php:2143 modules/blog/widgets/blog.php:2291
+#: modules/custom/widgets/custom.php:717 modules/custom/widgets/custom.php:1391
+#: modules/event-calendar/widgets/event-calendar.php:878
+#: modules/event-calendar/widgets/event-calendar.php:1107
+#: modules/flogia/widgets/flogia.php:522 modules/fluent/widgets/fluent.php:679
+#: modules/general/widgets/general.php:1724
+#: modules/general/widgets/general.php:2044
+#: modules/general/widgets/general.php:2166
+#: modules/general/widgets/general.php:2314
+#: modules/isolate/widgets/isolate.php:1620
+#: modules/isolate/widgets/isolate.php:1942
+#: modules/isolate/widgets/isolate.php:2034
+#: modules/isolate/widgets/isolate.php:2182
+#: modules/multiscroll/widgets/multiscroll.php:451
+#: modules/multiscroll/widgets/multiscroll.php:666
+#: modules/multiscroll/widgets/multiscroll.php:838
+#: modules/woocommerce/widgets/woocommerce.php:715
+#: modules/woocommerce/widgets/woocommerce.php:1036
+#: modules/woocommerce/widgets/woocommerce.php:1165
+#: modules/woostand/widgets/woostand.php:519
+#: modules/woostand/widgets/woostand.php:794
+#: modules/woostand/widgets/woostand.php:923
+msgid "Border"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1745 modules/blog/widgets/blog.php:2064
+#: modules/blog/widgets/blog.php:2153 modules/blog/widgets/blog.php:2301
+#: modules/custom/widgets/custom.php:1200
+#: modules/event-calendar/widgets/event-calendar.php:910
+#: modules/flogia/widgets/flogia.php:530 modules/fluent/widgets/fluent.php:687
+#: modules/general/widgets/general.php:1738
+#: modules/general/widgets/general.php:2055
+#: modules/general/widgets/general.php:2176
+#: modules/general/widgets/general.php:2324
+#: modules/isolate/widgets/isolate.php:1634
+#: modules/isolate/widgets/isolate.php:1953
+#: modules/isolate/widgets/isolate.php:2044
+#: modules/isolate/widgets/isolate.php:2192
+#: modules/multiscroll/widgets/multiscroll.php:698
+#: modules/woocommerce/widgets/woocommerce.php:1047
+#: modules/woocommerce/widgets/woocommerce.php:1176
+#: modules/woostand/widgets/woostand.php:805
+#: modules/woostand/widgets/woostand.php:934
+msgid "Radius"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1761 modules/blog/widgets/blog.php:1834
+#: modules/blog/widgets/blog.php:2028 modules/blog/widgets/blog.php:2076
+#: modules/blog/widgets/blog.php:2165 modules/blog/widgets/blog.php:2313
+#: modules/blog/widgets/blog.php:2738 modules/blog/widgets/blog.php:2920
+#: modules/custom/widgets/custom.php:641 modules/custom/widgets/custom.php:740
+#: modules/custom/widgets/custom.php:891 modules/custom/widgets/custom.php:1218
+#: modules/event-calendar/widgets/event-calendar.php:928
+#: modules/event-calendar/widgets/event-calendar.php:1127
+#: modules/event-calendar/widgets/event-calendar.php:1345
+#: modules/flogia/widgets/flogia.php:542 modules/fluent/widgets/fluent.php:699
+#: modules/fluent/widgets/fluent.php:1000
+#: modules/general/widgets/general.php:1754
+#: modules/general/widgets/general.php:1826
+#: modules/general/widgets/general.php:2019
+#: modules/general/widgets/general.php:2067
+#: modules/general/widgets/general.php:2188
+#: modules/general/widgets/general.php:2336
+#: modules/general/widgets/general.php:2826
+#: modules/general/widgets/general.php:3048
+#: modules/isolate/widgets/isolate.php:1650
+#: modules/isolate/widgets/isolate.php:1723
+#: modules/isolate/widgets/isolate.php:1917
+#: modules/isolate/widgets/isolate.php:1965
+#: modules/isolate/widgets/isolate.php:2056
+#: modules/isolate/widgets/isolate.php:2204
+#: modules/isolate/widgets/isolate.php:2726
+#: modules/isolate/widgets/isolate.php:3261
+#: modules/multiscroll/widgets/multiscroll.php:471
+#: modules/multiscroll/widgets/multiscroll.php:716
+#: modules/woocommerce/widgets/woocommerce.php:1059
+#: modules/woocommerce/widgets/woocommerce.php:1188
+#: modules/woocommerce/widgets/woocommerce.php:1266
+#: modules/woostand/widgets/woostand.php:539
+#: modules/woostand/widgets/woostand.php:817
+#: modules/woostand/widgets/woostand.php:946
+msgid "Padding"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1789 modules/blog/widgets/blog.php:2111
+#: modules/blog/widgets/blog.php:2259 modules/blog/widgets/blog.php:2676
+#: modules/blog/widgets/blog.php:2881 modules/blog/widgets/blog.php:3126
+#: modules/blog/widgets/blog.php:3453 modules/custom/widgets/custom.php:678
+#: modules/custom/widgets/custom.php:852 modules/custom/widgets/custom.php:1129
+#: modules/custom/widgets/custom.php:1326
+#: modules/event-calendar/widgets/event-calendar.php:843
+#: modules/event-calendar/widgets/event-calendar.php:1080
+#: modules/flogia/widgets/flogia.php:709 modules/fluent/widgets/fluent.php:961
+#: modules/fluent/widgets/fluent.php:1190
+#: modules/general/widgets/general.php:1782
+#: modules/general/widgets/general.php:2104
+#: modules/general/widgets/general.php:2282
+#: modules/general/widgets/general.php:2753
+#: modules/general/widgets/general.php:2980
+#: modules/general/widgets/general.php:3251
+#: modules/general/widgets/general.php:3316
+#: modules/isolate/widgets/isolate.php:1678
+#: modules/isolate/widgets/isolate.php:2002
+#: modules/isolate/widgets/isolate.php:2150
+#: modules/isolate/widgets/isolate.php:2622
+#: modules/isolate/widgets/isolate.php:3017
+#: modules/isolate/widgets/isolate.php:3222
+#: modules/isolate/widgets/isolate.php:3414
+#: modules/isolate/widgets/isolate.php:3477
+#: modules/multiscroll/widgets/multiscroll.php:630
+#: modules/multiscroll/widgets/multiscroll.php:819
+#: modules/woocommerce/widgets/woocommerce.php:684
+#: modules/woocommerce/widgets/woocommerce.php:998
+#: modules/woocommerce/widgets/woocommerce.php:1228
+#: modules/woocommerce/widgets/woocommerce.php:1385
+#: modules/woocommerce/widgets/woocommerce.php:1450
+#: modules/woostand/widgets/woostand.php:488
+#: modules/woostand/widgets/woostand.php:756
+msgid "Normal"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1822 modules/blog/widgets/blog.php:2718
+#: modules/blog/widgets/blog.php:2932 modules/blog/widgets/blog.php:3497
+#: modules/custom/widgets/custom.php:728 modules/custom/widgets/custom.php:903
+#: modules/custom/widgets/custom.php:1176
+#: modules/custom/widgets/custom.php:1399
+#: modules/event-calendar/widgets/event-calendar.php:887
+#: modules/event-calendar/widgets/event-calendar.php:1115
+#: modules/event-calendar/widgets/event-calendar.php:1357
+#: modules/fluent/widgets/fluent.php:1012
+#: modules/general/widgets/general.php:1814
+#: modules/general/widgets/general.php:2806
+#: modules/general/widgets/general.php:3060
+#: modules/isolate/widgets/isolate.php:1711
+#: modules/isolate/widgets/isolate.php:2706
+#: modules/isolate/widgets/isolate.php:3055
+#: modules/isolate/widgets/isolate.php:3273
+#: modules/isolate/widgets/isolate.php:3522
+#: modules/multiscroll/widgets/multiscroll.php:459
+#: modules/multiscroll/widgets/multiscroll.php:675
+#: modules/multiscroll/widgets/multiscroll.php:857
+#: modules/woocommerce/widgets/woocommerce.php:1278
+#: modules/woocommerce/widgets/woocommerce.php:1494
+#: modules/woostand/widgets/woostand.php:527
+msgid "Border Radius"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1854 modules/blog/widgets/blog.php:2194
+#: modules/blog/widgets/blog.php:2333 modules/blog/widgets/blog.php:2758
+#: modules/blog/widgets/blog.php:3050 modules/blog/widgets/blog.php:3156
+#: modules/blog/widgets/blog.php:3607 modules/custom/widgets/custom.php:789
+#: modules/custom/widgets/custom.php:1030
+#: modules/custom/widgets/custom.php:1258
+#: modules/custom/widgets/custom.php:1413
+#: modules/event-calendar/widgets/event-calendar.php:950
+#: modules/event-calendar/widgets/event-calendar.php:1184
+#: modules/flogia/widgets/flogia.php:764 modules/fluent/widgets/fluent.php:1093
+#: modules/fluent/widgets/fluent.php:1242
+#: modules/general/widgets/general.php:1846
+#: modules/general/widgets/general.php:2217
+#: modules/general/widgets/general.php:2356
+#: modules/general/widgets/general.php:2846
+#: modules/general/widgets/general.php:3175
+#: modules/general/widgets/general.php:3281
+#: modules/general/widgets/general.php:3534
+#: modules/general/widgets/general.php:3544
+#: modules/isolate/widgets/isolate.php:1743
+#: modules/isolate/widgets/isolate.php:2085
+#: modules/isolate/widgets/isolate.php:2224
+#: modules/isolate/widgets/isolate.php:2746
+#: modules/isolate/widgets/isolate.php:3092
+#: modules/isolate/widgets/isolate.php:3338
+#: modules/isolate/widgets/isolate.php:3443
+#: modules/isolate/widgets/isolate.php:3635
+#: modules/multiscroll/widgets/multiscroll.php:740
+#: modules/woocommerce/widgets/woocommerce.php:752
+#: modules/woocommerce/widgets/woocommerce.php:1082
+#: modules/woocommerce/widgets/woocommerce.php:1324
+#: modules/woocommerce/widgets/woocommerce.php:1415
+#: modules/woocommerce/widgets/woocommerce.php:1538
+#: modules/woostand/widgets/woostand.php:580
+#: modules/woostand/widgets/woostand.php:840
+msgid "Hover"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1886 modules/general/widgets/general.php:1878
+#: modules/isolate/widgets/isolate.php:1775
+msgid "Select Menu Style"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1892 modules/general/widgets/general.php:1884
+#: modules/isolate/widgets/isolate.php:1781
+msgid "Line"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1893 modules/general/widgets/general.php:1885
+#: modules/isolate/widgets/isolate.php:1782
+msgid "DotLine"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1901 modules/general/widgets/general.php:1893
+#: modules/isolate/widgets/isolate.php:1790
+msgid "Menu Style Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1912 modules/general/widgets/general.php:1904
+#: modules/isolate/widgets/isolate.php:1801
+msgid "Dropdown Menu"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1933 modules/general/widgets/general.php:1925
+#: modules/isolate/widgets/isolate.php:1822
+#: modules/woostand/widgets/woostand.php:1041
+#: modules/woostand/widgets/woostand.php:1078
+msgid "Active Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1956 modules/blog/widgets/blog.php:2186
+#: modules/blog/widgets/blog.php:2471 modules/blog/widgets/blog.php:2557
+#: modules/blog/widgets/blog.php:2609 modules/blog/widgets/blog.php:3146
+#: modules/event-calendar/widgets/event-calendar.php:710
+#: modules/event-calendar/widgets/event-calendar.php:803
+#: modules/flogia/widgets/flogia.php:456 modules/flogia/widgets/flogia.php:555
+#: modules/flogia/widgets/flogia.php:604 modules/flogia/widgets/flogia.php:689
+#: modules/fluent/widgets/fluent.php:613 modules/fluent/widgets/fluent.php:712
+#: modules/fluent/widgets/fluent.php:761 modules/fluent/widgets/fluent.php:818
+#: modules/fluent/widgets/fluent.php:879 modules/fluent/widgets/fluent.php:908
+#: modules/general/widgets/general.php:1948
+#: modules/general/widgets/general.php:2209
+#: modules/general/widgets/general.php:2464
+#: modules/general/widgets/general.php:2519
+#: modules/general/widgets/general.php:2686
+#: modules/general/widgets/general.php:3271
+#: modules/isolate/widgets/isolate.php:1845
+#: modules/isolate/widgets/isolate.php:2077
+#: modules/isolate/widgets/isolate.php:2418
+#: modules/isolate/widgets/isolate.php:2473
+#: modules/isolate/widgets/isolate.php:2555
+#: modules/isolate/widgets/isolate.php:3069
+#: modules/isolate/widgets/isolate.php:3081
+#: modules/isolate/widgets/isolate.php:3433
+#: modules/multiscroll/widgets/multiscroll.php:519
+#: modules/multiscroll/widgets/multiscroll.php:563
+#: modules/multiscroll/widgets/multiscroll.php:607
+#: modules/multiscroll/widgets/multiscroll.php:730
+#: modules/woocommerce/widgets/woocommerce.php:641
+#: modules/woocommerce/widgets/woocommerce.php:724
+#: modules/woocommerce/widgets/woocommerce.php:818
+#: modules/woocommerce/widgets/woocommerce.php:917
+#: modules/woocommerce/widgets/woocommerce.php:958
+#: modules/woocommerce/widgets/woocommerce.php:1072
+#: modules/woocommerce/widgets/woocommerce.php:1201
+#: modules/woocommerce/widgets/woocommerce.php:1405
+#: modules/woostand/widgets/woostand.php:445
+#: modules/woostand/widgets/woostand.php:552
+#: modules/woostand/widgets/woostand.php:675
+#: modules/woostand/widgets/woostand.php:716
+#: modules/woostand/widgets/woostand.php:830
+#: modules/woostand/widgets/woostand.php:959
+msgid "Typography"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1974 modules/blog/widgets/blog.php:2986
+#: modules/blog/widgets/blog.php:3012 modules/blog/widgets/blog.php:3269
+#: modules/blog/widgets/blog.php:3367 modules/general/widgets/general.php:1965
+#: modules/general/widgets/general.php:2999
+#: modules/general/widgets/general.php:3013
+#: modules/isolate/widgets/isolate.php:1863
+msgid "Text Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1985 modules/general/widgets/general.php:1976
+#: modules/isolate/widgets/isolate.php:1874
+msgid "Link Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:1997 modules/general/widgets/general.php:1988
+#: modules/isolate/widgets/isolate.php:1886
+msgid "Link Hover Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2008 modules/blog/widgets/blog.php:3378
+#: modules/event-calendar/widgets/event-calendar.php:1258
+#: modules/flogia/widgets/flogia.php:666 modules/fluent/widgets/fluent.php:844
+#: modules/general/widgets/general.php:1999
+#: modules/isolate/widgets/isolate.php:1897
+#: modules/isolate/widgets/isolate.php:3151
+#: modules/isolate/widgets/isolate.php:3191
+msgid "Background Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2041 modules/general/widgets/general.php:2032
+#: modules/isolate/widgets/isolate.php:1930
+msgid "WIDGET"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2088 modules/custom/widgets/custom.php:498
+#: modules/custom/widgets/custom.php:967
+#: modules/general/widgets/general.php:2079
+#: modules/isolate/widgets/isolate.php:1977
+msgid "Vertical Spacing"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2100 modules/general/widgets/general.php:2093
+#: modules/isolate/widgets/isolate.php:1991
+msgid "OFFCANVAS BUTTON"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2225 modules/blog/widgets/blog.php:2365
+#: modules/blog/widgets/blog.php:2791 modules/blog/widgets/blog.php:3079
+#: modules/blog/widgets/blog.php:3642 modules/custom/widgets/custom.php:819
+#: modules/custom/widgets/custom.php:1059
+#: modules/custom/widgets/custom.php:1294
+#: modules/custom/widgets/custom.php:1437
+#: modules/custom/widgets/custom.php:1478
+#: modules/event-calendar/widgets/event-calendar.php:987
+#: modules/event-calendar/widgets/event-calendar.php:1210
+#: modules/fluent/widgets/fluent.php:1122
+#: modules/general/widgets/general.php:2248
+#: modules/general/widgets/general.php:2388
+#: modules/general/widgets/general.php:2890
+#: modules/general/widgets/general.php:3204
+#: modules/general/widgets/general.php:3580
+#: modules/isolate/widgets/isolate.php:2116
+#: modules/isolate/widgets/isolate.php:2256
+#: modules/isolate/widgets/isolate.php:2821
+#: modules/isolate/widgets/isolate.php:3367
+#: modules/isolate/widgets/isolate.php:3670
+#: modules/multiscroll/widgets/multiscroll.php:767
+#: modules/multiscroll/widgets/multiscroll.php:846
+#: modules/multiscroll/widgets/multiscroll.php:980
+#: modules/woocommerce/widgets/woocommerce.php:783
+#: modules/woocommerce/widgets/woocommerce.php:1111
+#: modules/woocommerce/widgets/woocommerce.php:1352
+#: modules/woocommerce/widgets/woocommerce.php:1573
+#: modules/woostand/widgets/woostand.php:611
+#: modules/woostand/widgets/woostand.php:869
+msgid "Border Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2239 modules/general/widgets/general.php:2262
+#: modules/isolate/widgets/isolate.php:2130
+msgid "Button Animation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2248 modules/general/widgets/general.php:2271
+#: modules/isolate/widgets/isolate.php:2139
+msgid "CLOSE BUTTON"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2386 modules/custom/widgets/custom.php:158
+#: modules/flogia/widgets/flogia.php:339 modules/fluent/widgets/fluent.php:496
+#: modules/general/widgets/general.php:1135
+#: modules/general/widgets/general.php:2409
+#: modules/isolate/widgets/isolate.php:1133
+#: modules/isolate/widgets/isolate.php:2277
+#: modules/woocommerce/widgets/woocommerce.php:545
+#: modules/woostand/widgets/woostand.php:410
+msgid "Sliders"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2406 modules/flogia/widgets/flogia.php:410
+#: modules/fluent/widgets/fluent.php:567
+#: modules/general/widgets/general.php:2429
+#: modules/isolate/widgets/isolate.php:2383
+#: modules/woocommerce/widgets/woocommerce.php:606
+msgid "Title Width"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2441 modules/blog/widgets/blog.php:2455
+#: modules/flogia/widgets/flogia.php:444 modules/fluent/widgets/fluent.php:601
+msgid "First Word Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2482 modules/flogia/widgets/flogia.php:467
+#: modules/fluent/widgets/fluent.php:624 modules/fluent/widgets/fluent.php:916
+#: modules/general/widgets/general.php:2475
+#: modules/isolate/widgets/isolate.php:2429
+#: modules/woocommerce/widgets/woocommerce.php:652
+#: modules/woostand/widgets/woostand.php:456
+msgid "Title Spacing"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2503 modules/blog/widgets/blog.php:2518
+msgid "Separetor Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2535 modules/general/widgets/general.php:1159
+#: modules/general/widgets/general.php:2497
+#: modules/isolate/widgets/isolate.php:1160
+#: modules/isolate/widgets/isolate.php:2451
+#: modules/multiscroll/widgets/multiscroll.php:93
+msgid "Sub Title"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2565 modules/general/widgets/general.php:2527
+#: modules/isolate/widgets/isolate.php:2481
+msgid "Sub Title Spacing"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2587
+#: modules/event-calendar/widgets/event-calendar.php:780
+#: modules/general/widgets/general.php:1208
+#: modules/general/widgets/general.php:2549
+#: modules/isolate/widgets/isolate.php:1209
+#: modules/isolate/widgets/isolate.php:2503
+#: modules/woocommerce/widgets/woocommerce.php:796
+msgid "Excerpt"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2617 modules/general/widgets/general.php:2694
+#: modules/isolate/widgets/isolate.php:2563
+#: modules/multiscroll/widgets/multiscroll.php:869
+#: modules/woocommerce/widgets/woocommerce.php:826
+msgid "Width (px)"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2644 modules/general/widgets/general.php:2721
+#: modules/isolate/widgets/isolate.php:2590
+#: modules/woocommerce/widgets/woocommerce.php:853
+msgid "Excerpt Spacing"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2666
+#: modules/event-calendar/widgets/event-calendar.php:830
+#: modules/general/widgets/general.php:2743
+#: modules/isolate/widgets/isolate.php:2612
+#: modules/multiscroll/widgets/multiscroll.php:617
+msgid "Button"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2816 modules/flogia/widgets/flogia.php:353
+#: modules/fluent/widgets/fluent.php:510
+#: modules/general/widgets/general.php:2915
+#: modules/isolate/widgets/isolate.php:2846
+#: modules/isolate/widgets/isolate.php:2922
+#: modules/woocommerce/widgets/woocommerce.php:559
+#: modules/woostand/widgets/woostand.php:1138
+msgid "Blend"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2825
+#: modules/event-calendar/widgets/event-calendar.php:646
+#: modules/flogia/widgets/flogia.php:362 modules/fluent/widgets/fluent.php:519
+#: modules/general/widgets/general.php:2924
+#: modules/isolate/widgets/isolate.php:2858
+#: modules/isolate/widgets/isolate.php:2931
+#: modules/woocommerce/widgets/woocommerce.php:567
+#: modules/woostand/widgets/woostand.php:1147
+msgid "Overlay Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2839 modules/flogia/widgets/flogia.php:376
+#: modules/fluent/widgets/fluent.php:533
+#: modules/general/widgets/general.php:2938
+#: modules/isolate/widgets/isolate.php:2873
+#: modules/isolate/widgets/isolate.php:2945
+#: modules/woocommerce/widgets/woocommerce.php:581
+#: modules/woostand/widgets/woostand.php:1161
+msgid "Blend Type"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:2952 modules/custom/widgets/custom.php:752
+#: modules/custom/widgets/custom.php:923 modules/fluent/widgets/fluent.php:1032
+#: modules/general/widgets/general.php:3080
+#: modules/isolate/widgets/isolate.php:3293
+msgid "Icon Size"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3039 modules/custom/widgets/custom.php:1001
+#: modules/fluent/widgets/fluent.php:1082
+#: modules/general/widgets/general.php:3164
+#: modules/isolate/widgets/isolate.php:3327
+msgid "Show Tooltip"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3232 modules/blog/widgets/blog.php:3244
+msgid "Slide Meta"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3257
+msgid "Icon Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3280
+msgid "Width(px)"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3331 modules/blog/widgets/blog.php:3343
+#: modules/flogia/widgets/flogia.php:644
+msgid "Featured Post"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3356 modules/general/widgets/general.php:2571
+#: modules/general/widgets/general.php:2627
+msgid "Title Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3392 modules/blog/widgets/blog.php:3404
+msgid "Admin Meta"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3431 modules/blog/widgets/blog.php:3442
+#: modules/custom/widgets/custom.php:280 modules/custom/widgets/custom.php:1079
+#: modules/event-calendar/widgets/event-calendar.php:468
+#: modules/event-calendar/widgets/event-calendar.php:475
+#: modules/event-calendar/widgets/event-calendar.php:1227
+#: modules/flogia/widgets/flogia.php:699 modules/fluent/widgets/fluent.php:1177
+#: modules/general/widgets/general.php:3306
+#: modules/isolate/widgets/isolate.php:3467
+#: modules/multiscroll/widgets/multiscroll.php:365
+#: modules/multiscroll/widgets/multiscroll.php:806
+#: modules/woocommerce/widgets/woocommerce.php:1440
+#: modules/woostand/widgets/woostand.php:973
+msgid "Navigation"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3460 modules/blog/widgets/blog.php:3614
+#: modules/event-calendar/widgets/event-calendar.php:1286
+#: modules/flogia/widgets/flogia.php:719 modules/flogia/widgets/flogia.php:774
+#: modules/fluent/widgets/fluent.php:1197
+#: modules/fluent/widgets/fluent.php:1249
+#: modules/general/widgets/general.php:3325
+#: modules/general/widgets/general.php:3433
+#: modules/general/widgets/general.php:3552
+#: modules/isolate/widgets/isolate.php:3484
+#: modules/isolate/widgets/isolate.php:3642
+#: modules/woocommerce/widgets/woocommerce.php:1457
+#: modules/woocommerce/widgets/woocommerce.php:1545
+msgid "Arrows Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3510 modules/blog/widgets/blog.php:3558
+#: modules/general/widgets/general.php:3382
+#: modules/general/widgets/general.php:3401
+#: modules/general/widgets/general.php:3482
+#: modules/general/widgets/general.php:3499
+#: modules/isolate/widgets/isolate.php:3551
+#: modules/isolate/widgets/isolate.php:3599
+msgid "Active Dot Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3527 modules/blog/widgets/blog.php:3574
+msgid "Dot Number Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3543 modules/blog/widgets/blog.php:3590
+#: modules/general/widgets/general.php:3418
+#: modules/general/widgets/general.php:3516
+#: modules/isolate/widgets/isolate.php:3568
+#: modules/isolate/widgets/isolate.php:3615
+#: modules/woocommerce/widgets/woocommerce.php:1522
+msgid "Active Number Color"
+msgstr ""
+
+#: modules/blog/widgets/blog.php:3887 modules/general/widgets/general.php:3825
+#: modules/isolate/widgets/isolate.php:3898
+msgid ""
+"Ops you don't select or enter any content! Add your offcanvas content from "
+"editor."
+msgstr ""
+
+#: modules/blog/widgets/blog.php:4039 modules/general/widgets/general.php:3930
+#: modules/isolate/skins/skin-locate.php:36
+msgid "Share Us"
+msgstr ""
+
+#: modules/custom/module.info.php:5 modules/custom/widgets/custom.php:28
+#: modules/event-calendar/widgets/event-calendar.php:379
+#: modules/event-calendar/widgets/event-calendar.php:406
+msgid "Custom"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:118
+msgid "Scroll to Section"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:140
+msgid "Scroll to Section Icon"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:165
+#: modules/general/widgets/general.php:1142
+#: modules/isolate/widgets/isolate.php:1140
+msgid "Slider Items"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:169
+msgid "Slide #1"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:172
+msgid "Slide #2"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:175
+msgid "Slide #3"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:181
+msgid "Title ( Optional )"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:184
+#: modules/general/widgets/general.php:1170
+#: modules/isolate/widgets/isolate.php:1170
+msgid "Slide Title"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:300 modules/custom/widgets/custom.php:1115
+#: modules/event-calendar/widgets/event-calendar.php:480
+#: modules/woostand/widgets/woostand.php:983
+msgid "Arrows"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:314 modules/custom/widgets/custom.php:1582
+#: modules/isolate/skins/skin-locate.php:70
+msgid "Next"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:321 modules/custom/widgets/custom.php:399
+msgid "Arrows Icon"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:333 modules/custom/widgets/custom.php:411
+#: modules/custom/widgets/custom.php:480 modules/custom/widgets/custom.php:940
+msgid "Position"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:350 modules/custom/widgets/custom.php:428
+#: modules/custom/widgets/custom.php:518 modules/custom/widgets/custom.php:950
+msgid "Horizontal Spacing"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:370
+msgid "Next Vertical Spacing"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:392
+msgid "Previous"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:448
+msgid "Prev Vertical Spacing"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:470 modules/custom/widgets/custom.php:1312
+#: modules/event-calendar/widgets/event-calendar.php:481
+#: modules/woostand/widgets/woostand.php:1020
+msgid "Dots"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:542
+#: modules/event-calendar/widgets/event-calendar.php:545
+msgid "Slider Settings"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:602
+#: modules/general/widgets/general.php:1527
+#: modules/general/widgets/general.php:1547
+msgid "Slider Animations"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:609
+#: modules/general/widgets/general.php:1534
+#: modules/general/widgets/general.php:1554
+msgid "Scale"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:611
+#: modules/general/widgets/general.php:1536
+#: modules/general/widgets/general.php:1556
+msgid "Pull"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:623
+msgid "Slider"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:655
+msgid "Scroll to Top"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:769
+msgid "Bottom Space"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1010
+msgid "Tooltip Position"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1016
+msgid "Top"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1017
+msgid "Bottom"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1100
+msgid "Select Navigation Style"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1105
+msgid "Style 1"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1106
+msgid "Style 2"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1107
+msgid "Style 3"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1192
+#: modules/event-calendar/widgets/event-calendar.php:902
+#: modules/multiscroll/widgets/multiscroll.php:690
+msgid "Advanced Radius"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1201
+#: modules/event-calendar/widgets/event-calendar.php:911
+#: modules/multiscroll/widgets/multiscroll.php:699
+#, php-format
+msgid ""
+"For example: <b>%1s</b> or Go <a href=\"%2s\" target=\"_blank\">this link</"
+"a> and copy and paste the radius value."
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1234
+#: modules/event-calendar/widgets/event-calendar.php:1238
+#: modules/fluent/widgets/fluent.php:1208
+msgid "Arrows Size"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1350
+#: modules/custom/widgets/custom.php:1492
+msgid "Dots Height"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1370
+msgid "Dots Width"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1453 modules/flogia/widgets/flogia.php:819
+#: modules/multiscroll/widgets/multiscroll.php:962
+msgid "Active"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1578
+#: modules/isolate/skins/skin-locate.php:67
+msgid "Prev"
+msgstr ""
+
+#: modules/custom/widgets/custom.php:1680
+msgid "Please Select Template From Sliders Section. "
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:70
+msgid "Height"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:122
+#: modules/fluent/widgets/fluent.php:141
+msgid "Show Date"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:152
+msgid "Show Buy Button"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:162
+msgid "When you use Buy Button, Please type your custom link."
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:176
+msgid "Show Location"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:185
+#: modules/multiscroll/widgets/multiscroll.php:261
+msgid "Show Image"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:207
+msgid "Event Countdown"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:216
+#: modules/event-calendar/widgets/event-calendar.php:273
+#: modules/event-calendar/widgets/event-calendar.php:275
+#: modules/event-calendar/widgets/event-calendar.php:276
+#: modules/event-calendar/widgets/event-calendar.php:2116
+msgid "Days"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:225
+#: modules/event-calendar/widgets/event-calendar.php:288
+#: modules/event-calendar/widgets/event-calendar.php:290
+#: modules/event-calendar/widgets/event-calendar.php:291
+#: modules/event-calendar/widgets/event-calendar.php:2117
+msgid "Hours"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:234
+#: modules/event-calendar/widgets/event-calendar.php:303
+#: modules/event-calendar/widgets/event-calendar.php:305
+#: modules/event-calendar/widgets/event-calendar.php:306
+#: modules/event-calendar/widgets/event-calendar.php:2118
+msgid "Minutes"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:243
+#: modules/event-calendar/widgets/event-calendar.php:318
+#: modules/event-calendar/widgets/event-calendar.php:320
+#: modules/event-calendar/widgets/event-calendar.php:321
+#: modules/event-calendar/widgets/event-calendar.php:2119
+msgid "Seconds"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:252
+msgid "Show Label"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:261
+msgid "Custom Label"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:372
+msgid "Start Date"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:375
+#: modules/event-calendar/widgets/event-calendar.php:402
+msgid "Any Time"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:376
+#: modules/event-calendar/widgets/event-calendar.php:403
+msgid "Now"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:377
+#: modules/event-calendar/widgets/event-calendar.php:404
+msgid "Today"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:378
+#: modules/event-calendar/widgets/event-calendar.php:405
+msgid "Last Month"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:388
+msgid "Custom Start Date"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:399
+msgid "End Date"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:415
+msgid "Custom End Date"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:439
+msgid "Event Date"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:479
+msgid "Arrows and Dots"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:492
+msgid "Arrows and Dots Position"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:505
+msgid "Arrows Position"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:518
+msgid "Hide Arrows on Moblile ?"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:530
+msgid "Dots Position"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:562
+msgid "Autoplay Speed"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:583
+msgid "Slides to Scroll"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:610
+msgid "Animation Speed (ms)"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:626
+msgid "Observer"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:627
+msgid ""
+"When you use carousel in any hidden place (in tabs, accordion etc) keep it "
+"yes."
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:638
+msgid "Items"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:657
+msgid "Max Width"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:698
+#: modules/event-calendar/widgets/event-calendar.php:1031
+#: modules/woostand/widgets/woostand.php:1004
+msgid "Hover Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:718
+#: modules/event-calendar/widgets/event-calendar.php:811
+#: modules/event-calendar/widgets/event-calendar.php:1051
+#: modules/event-calendar/widgets/event-calendar.php:1165
+#: modules/flogia/widgets/flogia.php:563 modules/fluent/widgets/fluent.php:720
+#: modules/multiscroll/widgets/multiscroll.php:507
+#: modules/multiscroll/widgets/multiscroll.php:551
+#: modules/multiscroll/widgets/multiscroll.php:595
+#: modules/multiscroll/widgets/multiscroll.php:943
+#: modules/woocommerce/widgets/woocommerce.php:732
+#: modules/woocommerce/widgets/woocommerce.php:967
+#: modules/woostand/widgets/woostand.php:560
+#: modules/woostand/widgets/woostand.php:725
+msgid "Spacing"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:759
+msgid "background Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:968
+#: modules/general/widgets/general.php:2613
+#: modules/general/widgets/general.php:2669
+#: modules/isolate/widgets/isolate.php:3165
+#: modules/isolate/widgets/isolate.php:3205
+#: modules/multiscroll/widgets/multiscroll.php:781
+msgid "Line Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1009
+msgid "Location"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1070
+msgid "Countdown"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1140
+msgid "Number Typography"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1149
+msgid "Text Typography"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1272
+msgid "Hover Background Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1300
+msgid "Arrows Hover Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1314
+msgid "Space"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1373
+msgid "Dots Size"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1393
+msgid "Active Size"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1413
+#: modules/flogia/widgets/flogia.php:733 modules/flogia/widgets/flogia.php:788
+#: modules/flogia/widgets/flogia.php:829
+msgid "Dots Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1427
+msgid "Active Dots Color"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1441
+msgid "Dots Border Radius"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1457
+#: modules/event-calendar/widgets/event-calendar.php:1520
+#: modules/event-calendar/widgets/event-calendar.php:1553
+#: modules/event-calendar/widgets/event-calendar.php:1616
+#: modules/multiscroll/widgets/multiscroll.php:903
+#: modules/multiscroll/widgets/multiscroll.php:923
+msgid "Horizontal Offset"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1487
+#: modules/event-calendar/widgets/event-calendar.php:1583
+#: modules/event-calendar/widgets/event-calendar.php:1646
+msgid "Vertical Offset"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1679
+msgid "Arrows Offset"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1712
+msgid "Dots Offset"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1843
+msgid "Start Date:"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1843
+msgid "End Date:"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1895
+msgid "Buy Ticket Online"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:1906
+msgid " View Location"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:2114
+msgid "Months"
+msgstr ""
+
+#: modules/event-calendar/widgets/event-calendar.php:2115
+msgid "Weeks"
+msgstr ""
+
+#: modules/flogia/module.info.php:5 modules/flogia/widgets/flogia.php:21
+msgid "Flogia"
+msgstr ""
+
+#: modules/flogia/widgets/flogia.php:111
+msgid "Show Thumbnav"
+msgstr ""
+
+#: modules/flogia/widgets/flogia.php:120
+msgid "Show Navigation Arrows/Dots"
+msgstr ""
+
+#: modules/flogia/widgets/flogia.php:389 modules/fluent/widgets/fluent.php:546
+#: modules/woostand/widgets/woostand.php:1120
+msgid "Content Inner Padding"
+msgstr ""
+
+#: modules/flogia/widgets/flogia.php:582 modules/fluent/widgets/fluent.php:739
+msgid "Meta"
+msgstr ""
+
+#: modules/flogia/widgets/flogia.php:748 modules/flogia/widgets/flogia.php:803
+#: modules/flogia/widgets/flogia.php:843
+msgid "Dots Border Color"
+msgstr ""
+
+#: modules/flogia/widgets/flogia.php:1077
+#: modules/fluent/widgets/fluent.php:1562
+msgid "Published by"
+msgstr ""
+
+#: modules/fluent/module.info.php:5 modules/fluent/widgets/fluent.php:24
+msgid "Fluent"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:159
+msgid "Show Thumb Scroller"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:168
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:318
+msgid "http://www.vimeo.com//bdthemes/"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:833
+msgid "Thumb Scroller"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:1153
+msgid "Primary Color"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:1164
+msgid "Secondary Color"
+msgstr ""
+
+#: modules/fluent/widgets/fluent.php:1224
+msgid "Arrows Spacing"
+msgstr ""
+
+#: modules/general/module.info.php:5 modules/general/widgets/general.php:31
+msgid "General"
+msgstr ""
+
+#: modules/general/skins/skin-crelly.php:15
+msgid "Crelly"
+msgstr ""
+
+#: modules/general/skins/skin-meteor.php:17
+msgid "Meteor"
+msgstr ""
+
+#: modules/general/widgets/general.php:148
+msgid "Hide Offcanvas Desktop?"
+msgstr ""
+
+#: modules/general/widgets/general.php:683
+#: modules/general/widgets/general.php:707
+msgid "Button Alignment"
+msgstr ""
+
+#: modules/general/widgets/general.php:1146
+#: modules/isolate/widgets/isolate.php:1144
+msgid "Slide Item 1"
+msgstr ""
+
+#: modules/general/widgets/general.php:1149
+#: modules/isolate/widgets/isolate.php:1148
+msgid "Slide Item 2"
+msgstr ""
+
+#: modules/general/widgets/general.php:1152
+#: modules/isolate/widgets/isolate.php:1152
+msgid "Slide Item 3"
+msgstr ""
+
+#: modules/general/widgets/general.php:1161
+msgid "Sub title goes here"
+msgstr ""
+
+#: modules/general/widgets/general.php:1177
+#: modules/isolate/widgets/isolate.php:1177
+#: modules/multiscroll/widgets/multiscroll.php:111
+msgid "Title Link"
+msgstr ""
+
+#: modules/general/widgets/general.php:1191
+#: modules/isolate/widgets/isolate.php:1191
+msgid "Details"
+msgstr ""
+
+#: modules/general/widgets/general.php:1198
+#: modules/isolate/widgets/isolate.php:1198
+#: modules/multiscroll/widgets/multiscroll.php:141
+msgid "Button Link"
+msgstr ""
+
+#: modules/general/widgets/general.php:1210
+#: modules/isolate/widgets/isolate.php:1211
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem, totam rem "
+"aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae "
+"dicta sunt explicabo."
+msgstr ""
+
+#: modules/general/widgets/general.php:1231
+msgid "Video"
+msgstr ""
+
+#: modules/general/widgets/general.php:1235
+msgid "Youtube"
+msgstr ""
+
+#: modules/general/widgets/general.php:1267
+msgid "Video Link"
+msgstr ""
+
+#: modules/general/widgets/general.php:1277
+msgid "Youtube Link"
+msgstr ""
+
+#: modules/general/widgets/general.php:1637
+#: modules/general/widgets/general.php:1652
+msgid "Shape Color"
+msgstr ""
+
+#: modules/general/widgets/general.php:2136
+#: modules/general/widgets/general.php:2150
+#: modules/general/widgets/general.php:2585
+#: modules/general/widgets/general.php:2641
+#: modules/general/widgets/general.php:3118
+#: modules/general/widgets/general.php:3149
+#: modules/isolate/widgets/isolate.php:2300
+#: modules/isolate/widgets/isolate.php:2342
+msgid "Primary Background"
+msgstr ""
+
+#: modules/general/widgets/general.php:2599
+#: modules/general/widgets/general.php:2655
+msgid "Style Color"
+msgstr ""
+
+#: modules/general/widgets/general.php:2787
+#: modules/general/widgets/general.php:2879
+msgid "Icon Background"
+msgstr ""
+
+#: modules/general/widgets/general.php:3367
+#: modules/general/widgets/general.php:3470
+msgid "Border Radius Test"
+msgstr ""
+
+#: modules/isolate/module.info.php:5 modules/isolate/widgets/isolate.php:31
+msgid "Isolate"
+msgstr ""
+
+#: modules/isolate/skins/skin-locate.php:17
+msgid "Locate"
+msgstr ""
+
+#: modules/isolate/skins/skin-slice.php:18
+msgid "Slice"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:180
+#: modules/isolate/widgets/isolate.php:216
+msgid "Show Play Button"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:313
+#: modules/multiscroll/widgets/multiscroll.php:198
+msgid "Content Position"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:1228
+msgid "Lightbox Source"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:2314
+#: modules/isolate/widgets/isolate.php:2356
+msgid "Secondary Background"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:2887
+#: modules/isolate/widgets/isolate.php:2958
+msgid "Primary Background Color"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:2902
+#: modules/isolate/widgets/isolate.php:2973
+msgid "Secondary Background Color"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:2991
+#: modules/isolate/widgets/isolate.php:3003
+msgid "Lightbox Play Button"
+msgstr ""
+
+#: modules/isolate/widgets/isolate.php:3535
+#: modules/isolate/widgets/isolate.php:3584
+msgid "Dot Color"
+msgstr ""
+
+#: modules/multiscroll/module.info.php:5
+#: modules/multiscroll/widgets/multiscroll.php:23
+msgid "Multiscroll"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:59
+msgid "Multiscroll Layout"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:67
+msgid "Item"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:71
+#: modules/multiscroll/widgets/multiscroll.php:77
+#: modules/multiscroll/widgets/multiscroll.php:83
+msgid "MultiScroll"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:95
+msgid "Subtitle Goes Here"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:104
+msgid "Slide Title Here"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:123
+#: modules/multiscroll/widgets/multiscroll.php:573
+msgid "Description"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:125
+msgid "Lorem ipsum dolor sit amet."
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:134
+msgid "View Details"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:153
+msgid "Left Background"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:162
+msgid "Right Background"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:214
+msgid "Content Max Width"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:248
+msgid "Justified"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:287
+msgid "Show Description"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:305
+msgid "Show Shadow Title"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:339
+msgid "Additional Settings"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:347
+msgid "Scrolling Speed"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:374
+msgid "Navigation Position"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:390
+msgid "loop Bottom"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:399
+msgid "loop Top"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:408
+msgid "Easing Effect"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:420
+msgid "Multiscroll Content"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:439
+msgid "Shadow Title Color"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:529
+msgid "Subtitle"
+msgstr ""
+
+#: modules/multiscroll/widgets/multiscroll.php:886
+msgid "Height (px)"
+msgstr ""
+
+#: modules/woocommerce/module.info.php:5
+msgid "Woocommerce"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:25
+msgid "WooCommerce"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:88
+msgid "Image Width"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:133
+#: modules/woocommerce/widgets/woocommerce.php:335
+#: modules/woocommerce/widgets/woocommerce.php:875
+#: modules/woostand/widgets/woostand.php:107
+#: modules/woostand/widgets/woostand.php:300
+#: modules/woostand/widgets/woostand.php:633
+msgid "Price"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:142
+#: modules/woostand/widgets/woostand.php:116
+msgid "Add to Cart"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:151
+msgid "Show Social Share"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:280
+#: modules/woostand/widgets/woostand.php:245
+msgid "Exclude Product(s)"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:284
+#: modules/woostand/widgets/woostand.php:249
+msgid ""
+"Write product id here, if you want to exclude multiple products so use comma "
+"as separator. Such as 1 , 2"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:291
+#: modules/woostand/widgets/woostand.php:256
+msgid "Product Limit"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:300
+#: modules/woostand/widgets/woostand.php:265
+msgid "Show Product"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:304
+#: modules/woostand/widgets/woostand.php:269
+msgid "All Products"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:305
+#: modules/woostand/widgets/woostand.php:270
+msgid "On Sale"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:306
+#: modules/woostand/widgets/woostand.php:271
+msgid "Featured"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:314
+#: modules/woostand/widgets/woostand.php:279
+msgid "Hide Free"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:322
+#: modules/woostand/widgets/woostand.php:287
+msgid "Hide Out of Stock"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:336
+#: modules/woostand/widgets/woostand.php:301
+msgid "Sales"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:360
+#: modules/woocommerce/widgets/woocommerce.php:1215
+msgid "Social Share"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:885
+#: modules/woostand/widgets/woostand.php:643
+msgid "Old Price"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:904
+#: modules/woocommerce/widgets/woocommerce.php:945
+#: modules/woostand/widgets/woostand.php:662
+#: modules/woostand/widgets/woostand.php:703
+msgid "Margin"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:925
+#: modules/woostand/widgets/woostand.php:683
+msgid "Sale Price"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:985
+#: modules/woostand/widgets/woostand.php:743
+msgid "Add to Cart Button"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:1127
+#: modules/woostand/widgets/woostand.php:885
+msgid "Quantity"
+msgstr ""
+
+#: modules/woocommerce/widgets/woocommerce.php:1506
+msgid "Total Number Color"
+msgstr ""
+
+#: modules/woostand/module.info.php:5 modules/woostand/widgets/woostand.php:25
+msgid "Woostand"
+msgstr ""
+
+#: modules/woostand/widgets/woostand.php:143
+msgid "Show Pagination"
+msgstr ""
+
+#: modules/woostand/widgets/woostand.php:622
+msgid "Hide Comma"
+msgstr ""
+
+#: modules/woostand/widgets/woostand.php:1057
+msgid "Pagination"
+msgstr ""
+
+#: modules/woostand/widgets/woostand.php:1092
+msgid "Separator Color"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Prime Slider"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://primeslider.pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Prime Slider is a packed of elementor widget that gives you some awesome "
+"header and slider combination for your website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "BdThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://bdthemes.com/"
+msgstr ""

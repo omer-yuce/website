@@ -1,0 +1,12 @@
+.elementor-add-new-section .ma-el-add-section-btn {    
+    color: #fff;
+    background: #4b00e7;
+    margin-right: 4px;
+    margin-left: 4px;
+    display: inherit;
+    padding: 0;
+    line-height: 40px;
+}
+.ma-el-add-section-btn{
+    order:0;
+}
