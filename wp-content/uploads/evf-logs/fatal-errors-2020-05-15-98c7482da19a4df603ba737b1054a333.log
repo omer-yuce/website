@@ -1,0 +1,12 @@
+2020-05-15T10:39:59+00:00 CRITICAL Uncaught Error: Class 'Essential_Addons_Elementor\Classes\Migration' not found in C:\wamp64\www\website\wp-content\plugins\essential-addons-for-elementor-lite\essential_adons_elementor.php:61
+Stack trace:
+#0 C:\wamp64\www\website\wp-includes\class-wp-hook.php(287): {closure}('')
+#1 C:\wamp64\www\website\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\website\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\website\wp-settings.php(562): do_action('wp_loaded')
+#4 C:\wamp64\www\website\wp-config.php(79): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\website\wp-load.php(37): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\website\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown
+
