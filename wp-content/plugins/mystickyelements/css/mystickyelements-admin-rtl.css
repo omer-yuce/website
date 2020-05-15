@@ -1,0 +1,3014 @@
+@font-face {
+	font-family: 'Open Sans Hebrew';
+	src: url('../fonts/OpenSansHebrew-Regular.woff2') format('woff2'),
+	url('../fonts/OpenSansHebrew-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+body .wrap.mystickyelement-wrap{
+	font-size: 12px;
+	font-family: "Poppins", Open Sans Hebrew;
+}
+.wrap.mystickyelement-wrap, .wrap.mystickyelement-wrap *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.myStickyelements-clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap.mystickyelement-wrap > h2:first-child{
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.myStickyelements-container{
+	background-color: #f9fcfc;
+	padding: 20px 25px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.myStickyelements-container table{
+	width: 100%;
+}
+.mystickyelements-fixed.is-rtl {
+	font-family: 'Open Sans Hebrew';
+}
+.myStickyelements-container table td #mystickyelements-contact-form-fields td,
+.myStickyelements-container table td{
+	width: 57%;
+	vertical-align: top;
+    padding-left: 20px;
+    padding-top: 19px;
+}
+.myStickyelements-container table td #mystickyelements-contact-form-fields td {
+	padding-left: 0;
+	position: relative;
+}
+.myStickyelements-container table td #mystickyelements-contact-form-fields td .move-icon {
+	top: 0;
+	right: -19px;
+	background-color: #f9fcfc;
+	bottom: 0;
+	background-position: center 20px;
+	height: 100%;
+	width: 17px;
+}
+.myStickyelements-container table td table td,
+.myStickyelements-container table td:nth-child(2n){
+	padding-left: 0px;
+}
+.myStickyelements-container table td table td:nth-child(2n){
+	width:38%;
+}
+/* Input Checkbox Toggle */
+.myStickyelements-switch {
+	display: inline-block;
+	width:55px;
+	height:30px;
+	position: relative;
+	/*float: right;*/
+}
+.myStickyelements-header-title h3 + .myStickyelements-switch {
+	margin-right: 13px;
+}
+.myStickyelements-switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.myStickyelements-switch .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	border: 2px solid #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	margin:0;
+}
+.myStickyelements-switch .slider:before {
+	position: absolute;
+	content: "";
+	height: 24px;
+	width: 24px;
+	right: 2px;
+	top: 1px;
+	background-color: #ffffff;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.myStickyelements-switch input:checked + .slider {
+	background-color: #7761DF;
+	border: 2px solid #7761DF;
+}
+.myStickyelements-switch input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+.myStickyelements-switch input:checked + .slider:before {
+	-webkit-transform: translateX(-24px);
+	-ms-transform: translateX(-24px);
+	transform: translateX(-24px);
+}
+/* Rounded sliders */
+.myStickyelements-switch .slider.round {
+	border-radius: 15px;
+}
+.myStickyelements-switch .slider.round:before {
+	border-radius: 50%;
+}
+/* CF Tab Section */
+.myStickyelements-header-title h3 {
+	display: inline-block;
+	font-size: 19px;
+	color: #4f4f4f;
+	margin: 0;
+	font-weight: 500;
+	line-height: 36px;
+}
+.myStickyelements-inputs ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.myStickyelements-container table td h4 {
+    margin-bottom: 0;
+}
+.myStickyelements-contact-form-tab select,
+.myStickyelements-contact-form-tab input[type="text"] {
+    width: 100%;
+    height: 38px;
+    border-radius: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*margin-top: 14px;*/
+	max-width: 100%;
+}
+.myStickyelements-contact-form-tab textarea {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 11px;
+    overflow-x: hidden;
+    padding: 10px 20px;
+}
+.myStickyelements-contact-form-tab label,
+.myStickyelements-contact-form-tab p.description{
+    font-size: 12px;
+}
+.myStickyelements-contact-form-tab .contact-form-view-label,
+.myStickyelements-contact-form-tab .contact-form-direction-label {
+	margin-left: 10px;
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+}
+.contact-form-direction.myStickyelements-inputs{
+	float: none;
+	width: auto;
+}
+.myStickyelements-contact-form-tab .contact-form-view label, .myStickyelements-contact-form-tab .contact-form-direction label {
+	float: none !important;
+	margin-left: 10px;
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+}
+.myStickyelements-contact-form-tab h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.myStickyelements-container.myStickyelements-general-settings td {
+    padding-top: 12px;
+}
+.myStickyelements-container table td td {
+    padding-top: 0;
+}
+.wrap.mystickyelement-wrap .iris-picker, .wrap.mystickyelement-wrap .iris-picker *{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.wp-picker-container button.button.wp-color-result {
+    border-radius: 15px;
+    border: 1px solid #DCE2E2;
+}
+.myStickyelements-content-section label, .wp-picker-container {
+    display: inline-block;
+}
+input#contact-form-submit-button {
+    /* background: #7761DF;
+    color: #ffffff; */
+	height: 42px;
+    border-radius: 27px;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    float: left;
+    width: 200px;
+}
+/*.myStickyelements-contact-form-tab label:nth-child(2n) {
+    float: right;
+    position: relative;
+}*/
+.myStickyelements-contact-form-tab input[type="checkbox"].required:checked {
+    background: #FB5B5B;
+}
+.mystickyelements-reqired-wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+.myStickyelements-icon-wrap {
+	position: relative;
+	width: 100%;
+}
+.myStickyelements-icon-wrap i {
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	font-size: 20px;
+	color: #adadad;
+}
+.myStickyelements-icon-wrap textarea + i {
+	top: 20px;
+}
+.mystickyelements-reqired-wrap label {
+    width: 100px;
+    margin-right: 15px;
+}
+.myStickyelements-setting-wrap {
+    width: calc(100% - 100px);
+}
+.myStickyelements-setting-wrap .myStickyelements-setting-label {
+    float: left;
+}
+.myStickyelements-setting-wrap-list .wp-picker-container {
+    float: left;
+}
+.myStickyelements-setting-wrap:after ,
+.myStickyelements-setting-wrap-list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.myStickyelements-redirect-link-wrap,
+.myStickyelements-setting-wrap-list {
+    margin-bottom: 18px;
+}
+.myStickyelements-setting-wrap-list:last-child {
+	margin-bottom: 0;
+}
+.myStickyelements-setting-wrap-list label {
+    margin-top: 7px;
+    display: inline-block;
+    vertical-align: top;
+}
+.myStickyelements-setting-wrap-list input[type="text"],
+.myStickyelements-setting-wrap-list .px-wrap {
+	float: left;
+	width: 200px;
+}
+.myStickyelements-setting-wrap-list .myStickyelements-thankyou-input{
+	float: left;
+	align-items:center;
+	display:flex;
+}
+.myStickyelements-setting-wrap-list .myStickyelements-setting-right {
+	float: left;
+	width: auto;
+}
+.redirect-link-input.myStickyelements-setting-right{
+	margin: 10px 0 0 0;
+}
+.myStickyelements-setting-wrap-list label + label {
+	margin-right: 10px;
+}
+.myStickyelements-direction-rtl label {
+	float: left;
+}
+.myStickyelements-direction-rtl label + label {
+	margin-right: 0;
+	margin-left: 10px;
+}
+/* Tab Settings */
+span.upgrade-myStickyelements {
+    float: left;
+}
+.myStickyelements-social-channels-lists .upgrade-myStickyelements {
+    background: #DFDDF7;
+    padding: 0;
+    position: relative;
+}
+.myStickyelements-social-channels-lists .upgrade-myStickyelements:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.myStickyelements-social-channels-lists .upgrade-myStickyelements:hover:before {
+    opacity: 1;
+}
+.myStickyelements-social-channels-lists .upgrade-myStickyelements ul li {
+    margin-bottom: 0;
+}
+.myStickyelements-social-channels-lists .upgrade-myStickyelements ul li.upgrade-myStickyelements-link {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.myStickyelements-social-channels-lists .upgrade-myStickyelements:hover ul li.upgrade-myStickyelements-link {
+    opacity: 1;
+    visibility: visible;
+}
+.upgrade-myStickyelements-link a ,
+.upgrade-myStickyelements a {
+	background: #DFDDF7;
+	padding: 4px 15px;
+	border-radius: 18px;
+	color: #7761DF;
+	margin-bottom: 0px;
+	text-decoration: none;
+	font-size: 9px;
+	margin-right: 12px;
+	display: inline-block;
+	vertical-align: top;
+}
+.upgrade-myStickyelements-link a i,
+.upgrade-myStickyelements a i {
+	margin-left: 5px;
+}
+select#contact-form-send-leads {
+    width: 100%;
+    height: 38px;
+    border-radius: 24px;
+    margin-top: 14px;
+	margin-bottom: 20px;
+	padding: 0 20px;
+    font-size: 12px;
+	cursor: default;
+}
+.upgrade-myStickyelements .fa-lock:before {
+    content: "\f023";
+    margin-left: 4px;
+}
+/* General Settings CSS */
+.myStickyelements-inputs li {
+	display: inline-block;
+	margin-left: -3px;
+	width: 33.33%;
+	margin-bottom: 12px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.myStickyelements-pos-rtl {
+	float: right;
+}
+span.myStickyelements-label {
+    float: right;
+    font-size: 15px;
+}
+.myStickyelements-general-settings span.myStickyelements-label {
+	width: 55%;
+}
+.myStickyelements-show-on-wrap span.myStickyelements-label {
+	width: auto;
+}
+.myStickyelements-contact-form-tab textarea#general-settings-tabs-css {
+    width: 100%;
+}
+.myStickyelements-contact-form-tab textarea::placeholder {
+    padding-top: 10px;
+}
+input#custom_position {
+    width: 100%;
+    height: 32px;
+    border-radius: 21px;
+	padding: 5px 15px;
+	cursor: default;
+}
+.myStickyelements-inputs input[type="radio"]:checked::before {
+    background: #7761DF;
+    width: 12px;
+    height: 12px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	margin:0;
+}
+.myStickyelements-inputs input[type=radio] {
+    width: 22px;
+    height: 22px;
+	position: relative;
+}
+.myStickyelements-inputs select{
+	width: 100%;
+	height: 38px;
+	border-radius: 24px;
+	padding: 0 15px;
+}
+.myStickyelements-inputs {
+    float: left;
+    width: 42%;
+}
+span.input-px {
+    background: #B7ADED;
+    border-bottom-left-radius: 32px;
+    border-top-left-radius: 32px;
+    color: #ffffff;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 32px;
+    line-height: 32px;
+    width: 57px;
+    text-align: center;
+}
+.px-wrap {
+    position: relative;
+}
+p.submit input#submit {
+    display: inline-block;
+    background: #00C67C;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-size: 17px;
+    padding: 12px 38px;
+    height: auto;
+}
+p.submit input#submit:active{
+	box-shadow: none;
+	transform: none;
+}
+p.submit {
+    text-align: center;
+}
+.myStickyelements-content-section textarea#general-settings-tabs-css {
+	border-radius: 10px;
+	margin-top: 5px;
+	width: 100%;
+}
+.wp-core-ui .button-primary {
+    text-shadow: none;
+    box-shadow: none;
+}
+/* My Sticky Element Social Channel tabs */
+.myStickyelements-social-search {
+	padding-top: 20px;
+}
+.myStickyelements-social-search-wrap {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.myStickyelements-social-search-wrap i {
+	position: absolute;
+	top: 13px;
+	right: 15px;
+	font-size: 16px;
+	color: #72777c;
+}
+.myStickyelements-social-search-wrap input {
+	padding-right: 40px;
+	height: 42px;
+	border-radius: 21px;
+}
+.myStickyelements-social-channels-lists:after{
+	clear: both;
+	content: '';
+	display: block;
+}
+.myStickyelements-social-channels-lists {
+	margin-right: -9px;
+}
+.myStickyelements-social-channels-lists li{
+	padding: 10px 9px;
+	float: right;
+	position: relative;
+}
+.myStickyelements-social-channels-lists li, .social-channel-input-box label span{
+	display: inline-block;
+    text-align: center;
+}
+.myStickyelements-social-channels-lists li:nth-child(12n + 1){
+	clear: both;
+}
+.myStickyelements-social-channels-lists li label, .social-channel-input-box label span{
+	text-align: center;
+}
+.social-channels-list {
+	position: relative;
+}
+.myStickyelements-social-channels-lists li .social-tooltip-popup ,
+.social-channels-list .social-tooltip-popup {
+	color: #444;
+	margin-left: 0;
+	width: 100px;
+	font-size: 12px;
+	padding: 10px 10px;
+	margin-bottom: 0px;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	transform: translateX(0);
+	text-align: center;
+	line-height: 1.2;
+	height: auto;
+	font-weight:600;
+	bottom: 100%;
+}
+.myStickyelements-social-channels-lists li label:hover + .social-tooltip-popup,
+.social-channels-list:hover .social-tooltip-popup {
+	bottom: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+.social-channels-list .social-tooltip-popup {
+	margin-bottom: 14px;
+	right: -100%;
+}
+.myStickyelements-social-channels-lists li label span, .social-channel-input-box label span{
+	font-size: 18px;
+	color: #fff;
+}
+.myStickyelements-social-channels-lists li label span .fas.fa-sms, .social-channel-input-box label span .fas.fa-sms{
+	font-size: 20px;
+}
+.myStickyelements-social-channels-lists .social-channels-list, .social-channel-input-box label span {
+	display: flex;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	align-items: center;
+	justify-content: center;
+}
+.myStickyelements-social-channels-lists .social-channels-list i, .social-channel-input-box label span i {
+	line-height: 34px;
+}
+.myStickyelements-social-channels-lists li input[type=checkbox]{
+	margin-top: 10px;
+}
+input[type=checkbox]{
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 0px 3px 6px rgba(103,122,122,0.16);
+	margin-right: 0;
+	width: 17px;
+	height: 17px;
+}
+input[type=checkbox]:checked{
+	background-color: #7761DF;
+	border: 0;
+}
+input[type=checkbox]:checked:before{
+	margin: -2px 0 0 -2px;
+	color: #fff;
+	width: 17px;
+	height: 17px;
+	line-height: 17px;
+	content: "\f147";
+    font: normal 21px/1 dashicons;
+}
+.mystickyelement-wrap .valign-table tr td label {
+	padding: 0;
+}
+.social-channels-tab .social-channels-item{
+	position: relative;
+	border-radius: 10px;
+	background-color: #EFF6F6;
+	padding: 14px;
+	padding-right: 38px;
+	width: 100%;
+	margin: 0px 0 24px 0;
+}
+.social-channel-setting input{
+    height: 38px;
+    width: 100%;
+    border-radius: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.myStickyelements-setting-wrap-list input[type="checkbox"] {
+	width: 17px;
+	height: 17px;
+	border-radius: 4px;
+}
+/*.social-channels-tab .social-channels-item .social-channel-setting table tr td:last-child{
+    text-align: right;
+}*/
+.social-channels-tab .social-channels-item .social-channel-setting table td{
+    padding: 0;
+}
+.social-channels-tab .social-channels-item .social-channel-setting input.social-custom-icon-upload-button{
+	width: 100%;
+}
+.social-channel-icon{
+	width:38px;
+}
+.social-channel-icon .social-channel-icon-close{
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+}
+.social-channels-tab .social-channels-item .social-channel-setting input.social-custom-icon-upload-button,
+.social-channel-icon{
+	display: inline-block;
+	height: 38px;
+	margin: 0 15px 0px 0;
+}
+.social-channel-icon{
+	margin: 0;
+	position: relative;
+}
+.social-channel-input-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.social-channel-input-box label{
+	width: 12%;
+}
+.social-channel-input-box input{
+	width: 85%;
+	margin: 0;
+	border-radius: 21px;
+	padding: 0 20px;
+}
+.social-channel-setting{
+	background-color: #fff;
+	border: 1px solid #DCE2E2;
+	padding: 12px 16px;
+	border-radius: 6px;
+	margin-top: 17px;
+}
+.social-channel-icon-close,
+.social-channel-close{
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #717278;
+	color: #fff;
+	cursor: pointer;
+}
+.myStickyelements-channel-view{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 16px;
+	align-items:center;
+	padding-right: 30px;
+	position: relative;
+}
+.myStickyelements-channel-view label{
+	width: 31.6%;
+	text-align: left;
+}
+.myStickyelements-channel-view label.social-tooltip {
+	width: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#mystickyelements-contact-form-fields span.contact-form-dropdown-popup{
+	margin-left: 20px;
+}
+#mystickyelements-contact-form-fields span.contact-form-dropdown-popup i,
+.myStickyelements-channel-view label.social-setting i{
+	background-color: #7761DF;
+	color:#ffffff;
+	border-radius: 30px;
+	height: 23px;
+	width: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+.mystickyelements-wrap .wp-picker-container{
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	min-width: 110px;
+	text-align: right;
+	margin-right: 10px;
+}
+.mystickyelements-wrap .myStickyelements-general-settings .wp-picker-container {
+	margin-right: 0;
+}
+.mystickyelements-wrap .wp-picker-container.wp-picker-active{
+    border: 0;
+    text-align: left;
+    background-color: transparent;
+}
+.mystickyelements-wrap .wp-color-result.button{
+	width: 22px;
+	height: 22px;
+	padding: 0px;
+	border: 0;
+	box-shadow: none;
+	margin:4px;
+	min-height: 100%;
+}
+.mystickyelements-wrap .wp-color-result-text{
+	background: transparent;
+	width: 70px;
+	padding: 0 25px 0 0;
+	border-radius: 25px;
+	border: 0;
+	font-size: 12px;
+	line-height: 2;
+}
+.mystickyelements-wrap .wp-picker-open .wp-color-result-text{
+	display: none;
+}
+.mystickyelements-wrap .wp-picker-input-wrap{
+	border-left: 0;
+}
+.wp-picker-active .wp-picker-input-wrap input[type=button]{
+    width: 60px;
+    height: 28px;
+    padding: 0;
+    margin-right: 3px;
+}
+.wp-picker-container input[type=text].wp-color-picker{
+	width: 80px;
+	height: 30px;
+	/*margin-top: 3px;*/
+}
+/*.wp-picker-container .wp-picker-clear{
+	margin-top: 3px;
+}*/
+.myStickyelements-preview-screen,
+.social-channels-tab{
+	display: flex;
+	flex-wrap: wrap;
+    background-color: #ffffff;
+    border: 1px solid #DCE2E2;
+    border-radius: 10px;
+    padding: 24px 24px 0 24px;
+}
+.social-channel-popover {
+    flex: 0 0 auto;
+    background: #FFF;
+    border-radius: 4px;
+    line-height: 33px;
+    padding: 5px;
+    position: relative;
+    margin: 25px 0 25px 25px;
+    box-shadow: 0 1px 14px rgba(156, 117, 198, .4), 0 2px 4px rgba(0, 0, 0, .15);
+    text-align: center;
+}
+.social-channel-popover a {
+	text-decoration: none;
+	color: #7761DF;
+}
+.move-icon {
+	background: url(../images/dot-move-icon.png) no-repeat;
+	height: 22px;
+	width: 10px;
+	position: absolute;
+	top: 38px;
+	right: 10px;
+	cursor: pointer;
+}
+.social-channel-number{
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+.myStickyelements-inputs .myStickyelements-switch {
+	float: right;
+}
+/*tooltip css*/
+.social-tooltip i {
+	background: #A9A9A9;
+	color: #ffffff;
+	border-radius: 30px;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.social-tooltip > span {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+.social-tooltip-popup {
+	margin: 0 0 20px 20px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: -50%;
+	opacity: 0;
+	visibility: hidden;
+	width: 300px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 4px #ccc;
+	padding: 10px 20px;
+	text-align: left;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	z-index: 9999;
+}
+.social-tooltip-popup::before {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-top: 10px solid #fff;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.social-tooltip > span:hover .social-tooltip-popup {
+	bottom: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+.social-tooltip-popup ul {
+	margin: 0;
+}
+.social-tooltip-popup ul li:last-child {
+	margin-left: 0;
+}
+.social-tooltip-popup ul li img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.myStickyelements-redirect-link-wrap label {
+	margin-bottom: 10px;
+	display: block;
+}
+.myStickyelements-contact-form-tab .myStickyelements-redirect-link-wrap input[type="text"].myStickyelements-redirect-link {
+	margin-top: 0;
+	padding-left: 130px;
+}
+.redirect-link-input {
+	position: relative;
+	width: 100%;
+}
+.redirect-link-input .upgrade-myStickyelements {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+/* Contact Leads */
+.responstable {
+	margin: 1em 0;
+	width: 100%;
+	overflow: hidden;
+	background: #FFF;
+	color: #024457;
+	border-radius: 10px;
+	border: 1px solid #7761DF;
+}
+.responstable tr {
+	border: 1px solid #D9E4E6;
+}
+.responstable tr:nth-child(odd) {
+	background-color: #EAF3F3;
+}
+.responstable th {
+	display: none;
+	border: 1px solid #FFF;
+	background-color: #7761DF ;
+	color: #FFF;
+	padding: 1em;
+}
+.responstable th:first-child {
+	display: table-cell;
+	text-align: center;
+}
+.responstable th:nth-child(2) {
+	display: table-cell;
+}
+.responstable th:nth-child(2) span {
+	display: none;
+}
+.responstable th:nth-child(2):after {
+	content: attr(data-th);
+}
+@media (min-width: 480px) {
+	.responstable th:nth-child(2) span {
+		display: block;
+	}
+	.responstable th:nth-child(2):after {
+		display: none;
+	}
+}
+.responstable td {
+	display: block;
+	word-wrap: break-word;
+	max-width: 7em;
+}
+.responstable td:first-child {
+	display: table-cell;
+	text-align: center;
+	border-left: 1px solid #D9E4E6;
+}
+@media (min-width: 480px) {
+	.responstable td {
+		border: 1px solid #D9E4E6;
+	}
+}
+.responstable th, .responstable td {
+	text-align: right;
+	margin: .5em 1em;
+}
+@media (min-width: 480px) {
+	.responstable th, .responstable td {
+		display: table-cell;
+		padding: 1em;
+	}
+}
+.wpappp_sub_text{
+	text-align: center;
+	font-size: 3em;
+	margin-top: 20px;
+}
+#upc_subscriber_tab tr td{
+	padding:20px;
+	padding-right:0;
+}
+.wpappp_buton,
+.mystickyelement-delete-entry {
+    overflow: hidden !important;
+    padding: 12px 12px !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    -webkit-transition: all 60ms ease-in-out !important;
+    transition: all 60ms ease-in-out !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    text-transform: capitalize !important;
+    color: #fff !important;
+    border: 0 none !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 160px !important;
+    -ms-flex: 0 0 160px !important;
+    flex: 0 0 160px !important;
+    color: #FFFFFF !important;
+    background: #7761DF !important;
+    margin: 0 5px 0 20px;
+}
+.wpappp_buton:hover,
+.mystickyelement-delete-entry:hover{
+    -webkit-transition: all 60ms ease !important;
+    transition: all 60ms ease !important;
+    opacity: .85 !important;
+}
+.wpappp_buton:active,
+.mystickyelement-delete-entry:active{
+    -webkit-transition: all 60ms ease !important;
+    transition: all 60ms ease !important;
+    -webkit-transform: scale(0.97) !important;
+    transform: scale(0.97) !important;
+    opacity: .75 !important;
+}
+#mystickyelement_contact_tab{
+    font-size: 18px;
+}
+.myStickyelements-header-title::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#myStickyelements_mobile_templete_desc{
+	border: 2px solid #f00;
+	padding: 5px;
+}
+.myStickyelements-contact-form-tab input[type="text"],
+.social-channels-item input,
+.myStickyelements-contact-form-tab textarea {
+    font-size: 12px;
+}
+/*Confirm Popup CSS*/
+.ui-dialog {
+	margin: 0 auto;
+	left: 0 !important;
+	z-index: 999999;
+	text-align: center;
+}
+.ui-dialog .ui-dialog-buttonset{
+	float:none;
+	text-align: center;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-button {
+    margin: 0 10px;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset .purple-btn, 
+.ui-dialog-buttonpane .ui-dialog-buttonset .gray-btn {
+	background-color: #969696;
+	color: #fff;
+	border-color: #969696;
+	border-radius: 25px;
+	line-height: 1.4;
+	padding: 8px 15px 10px;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	min-width: 150px;
+}
+.ui-dialog-buttonpane .ui-dialog-buttonset .purple-btn {
+	background-color: #7761DF;
+	border-color: #7761DF;
+}
+/*welcome popup css*/
+.myStickyelements-intro-popup-wrap{
+	position:fixed;
+}
+.myStickyelements-intro-popup iframe {
+	display: block;
+	margin: 30px auto;
+}
+.myStickyelements-intro-popup p {
+	font-size: 17px;
+}
+/* Preview Window CSS */
+.myStickyelements-preview-window {
+	float: left;
+}
+.myStickyelements-preview-window ul {
+	margin: 0;
+	padding: 0;
+}
+.myStickyelements-preview-window ul li {
+	color: #7761DF;
+	display: inline-block;
+	vertical-align: top;
+	width: 36px;
+	height: 36px;
+	background-color: #DFDDF7;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 36px;
+	margin-bottom:0;
+	margin-right: 10px;
+}
+.myStickyelements-preview-window ul li.preview-active {
+	color: #fff;
+	background-color: #7761DF;
+}
+.myStickyelements-preview-screen {
+	margin-top: 10px;
+	padding: 0;
+	height: 500px;
+	position: relative;
+	overflow:hidden;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen {
+	width: 320px;
+	margin: 20px auto 0;
+	height: 450px;
+}
+.myStickyelements-preview-screen .mystickyelements-fixed ul li.mystickyelements-minimize,
+.myStickyelements-preview-screen span.mystickyelements-social-icon a,
+.myStickyelements-preview-screen span.mystickyelements-social-icon,
+.myStickyelements-preview-screen .element-contact-form{
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+.myStickyelements-preview-screen .mystickyelements-fixed {
+	position: absolute;
+	z-index: 1;
+}
+.myStickyelements-preview-screen .mystickyelements-fixed ul li {
+	margin-bottom: 0;
+}
+.myStickyelements-preview-screen span.mystickyelements-social-text {
+	height: auto;
+	bottom: 0;
+	min-width: 162px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-large ul li {
+	width: 60px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large .mystickyelements-contact-form .mystickyelements-social-icon {
+	padding: 17px 10px 2px 10px;
+	width: 190px;
+	height: 60px;
+	font-size: 20px;
+	line-height: 1.2;
+	-webkit-transform-origin: 63px 63px 0;
+	-moz-transform-origin: 63px 63px 0;
+	transform-origin: 63px 63px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large span.mystickyelements-social-icon {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+}
+/*contact form pop up css*/
+.contact-form-popup-open {
+	position: relative;
+	height: auto;
+}
+.contact-form-popup-open::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1;
+}
+.contact-form-dropdown-select {
+	margin-right: 20px;
+}
+.contact-form-dropdown-open,
+.custom-field-popup-open {
+	background-color: #EFF6F6;
+	padding: 14px 40px;
+	border-radius: 10px;
+	max-width: 600px;
+	margin: 0 auto;
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+.custom-field-popup-open input[type="radio"] {
+    display: none;
+}
+.custom-field-popup-open {
+	text-align: center;
+}
+.custom-field-popup-open h3 {
+	font-size: 22px;
+}
+.custom-field-popup-open .contact-form-field-select-wrap:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.custom-field-popup-open .contact-form-field-select-wrap:hover:before {
+    opacity: 1;
+}
+.custom-field-popup-open .contact-form-field-select-wrap {
+	margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+	max-width: 400px;
+	position: relative;
+	justify-content: center;
+}
+.custom-field-popup-open .contact-form-field-select-wrap .upgrade-myStickyelements-link {
+	opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+.custom-field-popup-open .contact-form-field-select-wrap:hover .upgrade-myStickyelements-link {
+	opacity: 1;
+}
+.custom-field-popup-open .contact-form-field-select {
+	width: 33.33%;
+	padding: 0 5px;
+}
+.custom-field-popup-open .contact-form-field-select span {
+    background: #7761DF;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+	display: block;
+}
+.contact-form-dropdown-open input[type="text"] {
+	height: 30px;
+	border-radius: 4px;
+	padding: 0 10px;
+	max-width: 224px;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.contact-form-dropdown-option .option-value-field {
+	margin-top: 22px;
+	position: relative;
+	padding-right: 20px;
+}
+.add-dropdown-option {
+	background-color: #ebe8fa;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 6px 26px;
+	border-radius: 25px;
+	margin-left: 10px;
+	color: #969696;
+	line-height: 1.1;
+	font-size: 14px;
+	cursor: pointer;
+}
+.add-dropdown-option:hover {
+	background-color: #7761DF;
+	color: #fff;
+}
+.contact-form-dropdown-option .option-value-field .move-icon {
+	top: 5px;
+	right: 5px;
+}
+.contact-form-dropdown-option .option-value-field .delete-dropdown-option {
+	cursor: pointer;
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+.contact-form-dropdown-option .option-value-field .delete-dropdown-option:hover {
+	color: #7761DF;
+}
+.contact-form-dropdfown-close {
+	cursor: pointer;
+	position: absolute;
+	top: -10px;
+	left: -9px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #7761DF;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	background-color: #7761DF;
+	color: #fff;
+}
+.contact-form-dropdown-open input[type="submit"] {
+    display: inline-block;
+    background: #7761DF;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-size: 17px;
+    padding: 12px 100px;
+	margin: 15px 80px 0 0;
+    height: auto;
+}
+.mystickyelements-state-highlight {
+    border: dashed 1px #7761DF;
+	background-color: #ebe8fa;
+    min-height: 95px;
+	display: block;
+}
+.contact-form-dropdown-option .mystickyelements-state-highlight {
+	min-height: 31px;
+}
+tr.mystickyelements-state-highlight {
+	margin-right: -25px;
+	width: calc(100% + 25px);
+}
+.myStickyelements-container table td.myStickyelements-preview-tab {
+	position: fixed;
+	top: 150px;
+	left: 55px;
+	width: 500px;
+}
+.redirect-link-input textarea {
+	margin-top: 0;
+}
+.myStickyelements-social-channels-tabs > div, .myStickyelements-social-channels-tabs > ul {
+	width: 56%;
+	padding-left: 19px;
+}
+.myStickyelements-show-on-wrap::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.myStickyelements-show-on-wrap {
+	display: flex;
+}
+.myStickyelements-show-on-wrap .myStickyelements-inputs {
+	float: none;
+	width: auto;
+}
+.myStickyelements-page-option .url-content {
+	display: flex;
+	align-items: center;
+	direction: ltr;
+}
+.myStickyelements-page-option .url-content > div {
+	padding: 0 5px;
+}
+.myStickyelements-page-option .url-content select {
+	width: 180px;
+}
+.myStickyelements-page-option {
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #DCE2E2;
+	border-radius: 10px;
+	position: relative;
+}
+.myStickyelements-show-on-right {
+	padding-right: 10px;
+}
+.myStickyelements-page-option .url-content input[type="text"] {
+	height: 38px;
+	padding: 0 15px;
+}
+.myStickyelements-remove-rule {
+	color: #fff;
+	background-color: #666;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 22px;
+	line-height: 35px;
+}
+.myStickyelements-remove-rule:hover {
+	color: #fff;
+	background-color: #7761DF;
+}
+a.create-rule {
+	background-color: #7761DF;
+	color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	padding: 5px 12px;
+	border-radius: 20px;
+	box-shadow: none;
+	outline:none;
+}
+.create-rule:hover {
+	color: #fff;
+}
+.myStickyelements-page-option .upgrade-myStickyelements a,
+.myStickyelements-country-inputs .upgrade-myStickyelements a {
+	margin-right: 0;
+}
+.myStickyelements-page-option .upgrade-myStickyelements,
+.myStickyelements-country-inputs .upgrade-myStickyelements {
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	bottom: 0;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+}
+.myStickyelements-country-inputs .upgrade-myStickyelements {
+	border-radius: 24px;
+}
+.myStickyelements-page-option:hover .upgrade-myStickyelements,
+.myStickyelements-country-inputs:hover .upgrade-myStickyelements {
+	opacity: 1;
+	visibility: visible;
+}
+.mystickyelements-wrap .wp-picker-input-wrap label {
+	margin-top: 0;
+}
+.myStickyelements-country-inputs {
+	position: relative;
+}
+/* Preview Desktop Bottom */
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-fixed.mystickyelements-position-bottom ul {
+	height: 53px;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-fixed.mystickyelements-position-bottom.mystickyelements-size-small ul {
+	height: 45px;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-fixed.mystickyelements-position-bottom.mystickyelements-size-large ul {
+	height: 60px;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-position-bottom {
+	height: 53px;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-position-bottom.mystickyelements-size-small {
+	height: 45px;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-position-bottom.mystickyelements-size-large {
+	height: 60px;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-position-bottom.mystickyelements-position-screen-left {
+	text-align: left;
+}
+.myStickyelements-preview-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-position-bottom.mystickyelements-position-screen-right {
+	text-align: right;
+}
+/* Preview Mobile Bottom */
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom ul ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top ul {
+	display: block;
+	width: 100%;
+	height: 45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-small ul ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-mobile-size-small ul {
+	height: 38px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large ul ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-mobile-size-large ul {
+	height: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium span.mystickyelements-social-icon {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 17px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small span.mystickyelements-social-icon {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 13px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large span.mystickyelements-social-icon {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-medium ul li.mystickyelements-contact-form {
+	padding-bottom: 45px;
+	padding-top: 53px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-small ul li.mystickyelements-contact-form {
+	padding-bottom: 54px;
+	padding-top: 52px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-large ul li.mystickyelements-contact-form {
+    padding-bottom: 64px;
+    padding-top: 65px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large ul li.mystickyelements-contact-form ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-mobile-size-large ul li.mystickyelements-contact-form {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed .mystickyelements-icon-below-text {
+	font-size: 8px !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-small .mystickyelements-icon-below-text {
+	font-size: 7px !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-large .mystickyelements-icon-below-text {
+	font-size: 10px !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium .mystickyelements-contact-form .mystickyelements-social-icon {
+	font-size: 11px;
+	padding: 17px 10px 10px 10px;
+	height: 45px;
+	width: 143px;
+	line-height: 1.2;
+	-webkit-transform-origin: 45px 45px 0;
+	-moz-transform-origin: 45px 45px 0;
+	transform-origin: 45px 45px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small .mystickyelements-contact-form .mystickyelements-social-icon {
+    font-size: 11px;
+    padding: 13px 10px 2px 10px;
+    height: 38px;
+    width: 144px;
+    line-height: 1.2;
+    -webkit-transform-origin: 46px 46px 0;
+    -moz-transform-origin: 46px 46px 0;
+    transform-origin: 46px 46px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large .mystickyelements-contact-form .mystickyelements-social-icon {
+    padding: 16px 10px 2px 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 1.2;
+    -webkit-transform-origin: 57px 57px 0;
+    -moz-transform-origin: 57px 57px 0;
+    transform-origin: 57px 57px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-contact-form .mystickyelements-social-icon i {
+	margin-left: 15px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-medium ul li {
+	width: 45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-small ul li {
+    width: 38px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-mobile-size-large ul li {
+	width: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium.mystickyelements-position-mobile-bottom span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium.mystickyelements-position-mobile-bottom span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium.mystickyelements-position-mobile-top span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium.mystickyelements-position-mobile-top span.mystickyelements-social-icon {
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	outline: 0 none;
+	width: 100%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top span.mystickyelements-social-icon {
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	width: 100%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-bottom span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-bottom span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-top span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-top span.mystickyelements-social-icon {
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	width: 100%;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon {
+	height: 45px;
+	width: 100%;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-small .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-small .mystickyelements-contact-form .mystickyelements-social-icon {
+	height: 38px;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-large .mystickyelements-contact-form .mystickyelements-social-icon {
+	height: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-minimize ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-minimize {
+	font-size: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-minimize::before {
+	content: "↓";
+	font-size: 12px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-minimize::before {
+	content: "↑";
+	font-size: 12px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large span.mystickyelements-minimize::before ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-large span.mystickyelements-minimize::before {
+	font-size: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right span.mystickyelements-minimize {
+	font-size: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right span.mystickyelements-minimize::before {
+	content: "→";
+	font-size: 12px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-mobile-size-large span.mystickyelements-minimize::before {
+	font-size: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left span.mystickyelements-minimize {
+	font-size: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left span.mystickyelements-minimize::before {
+	content: "←";
+	font-size: 12px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-mobile-size-large span.mystickyelements-minimize::before {
+	font-size: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right span.mystickyelements-minimize.minimize-position-left {
+	border-radius: 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left span.mystickyelements-minimize.minimize-position-right {
+	border-radius: 0 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-right ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-right {
+	padding: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom ul li.mystickyelements-minimize ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top ul li.mystickyelements-minimize {
+	width: 5%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul.mystickyelements-lists.mystickyelement-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul.mystickyelements-lists.mystickyelement-minimize li {
+	position: relative;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-right,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-right {
+	height: 45px;
+	border-radius: 0;
+	line-height: 45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-right,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-right {
+	height: 38px;
+	border-radius: 0;
+	line-height: 38px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-bottom span.mystickyelements-minimize.minimize-position-right,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-top span.mystickyelements-minimize.minimize-position-right {
+	height: 50px;
+	border-radius: 0;
+	line-height: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .element-minimize span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .element-minimize span.mystickyelements-minimize.minimize-position-right,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .element-minimize span.mystickyelements-minimize.minimize-position-left,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .element-minimize span.mystickyelements-minimize.minimize-position-right {
+	height: 35px;
+	line-height: 35px;
+	-webkit-transform: translateY(20px);
+	-moz-transform: translateY(20px);
+	transform: translateY(20px);
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom .mystickyelements-lists.mystickyelement-minimize li:not(.mystickyelements-minimize) {
+	left: auto;
+	bottom: -45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top .mystickyelements-lists.mystickyelement-minimize li:not(.mystickyelements-minimize) {
+	left: auto;
+	top: -45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 45px;
+	top: auto;
+	text-align: center;
+	-webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-entry-effect-slide-in {
+	bottom: -50px;
+	left: 0;
+	right: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-entry-effect-slide-in.entry-effect {
+	bottom: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top {
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 45px;
+	bottom: auto;
+	text-align: center;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-entry-effect-slide-in {
+	top: -50px;
+	left: 0;
+	right: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-entry-effect-slide-in.entry-effect {
+	top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-small ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-small {
+	height: 38px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-large {
+	height: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-social-icon {
+	border-radius: 0 !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon {
+	-webkit-transform-origin: 0 0 0 !important;
+	-moz-transform-origin: 0 0 0 !important;
+	transform-origin: 0 0 0 !important;
+	-webkit-transform: rotate(0) !important;
+	-moz-transform: rotate(0) !important;
+	transform: rotate(0) !important;
+	box-shadow: unset;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-medium .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-medium .mystickyelements-contact-form .mystickyelements-social-icon {
+	padding: 8px 5px 5px;
+	font-size: 11px;
+	line-height: 1.2;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-small .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-small .mystickyelements-contact-form .mystickyelements-social-icon {
+	padding: 7px 5px 5px;
+	font-size: 11px;
+	line-height: 1.2;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-large .mystickyelements-contact-form .mystickyelements-social-icon {
+	padding: 5px 5px 5px;
+	font-size: 11px;
+	line-height: 1.2;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom ul li.mystickyelements-contact-form ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top ul li.mystickyelements-contact-form {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon i ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon i {
+	margin-left: 0;
+	margin-right: 0;
+	display: block;
+	font-size: 20px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form[dir='rtl'] .mystickyelements-social-icon i ,
+html[dir='rtl'] .myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon i,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form[dir='rtl'] .mystickyelements-social-icon i ,
+html[dir='rtl'] .myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon i {
+	margin-left: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul li:first-child.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul li:last-child .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul li:first-child.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul li:last-child .mystickyelements-social-icon {
+	border-radius: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom ul:after ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul li {
+	position: static;
+	float: left;
+	width: 8.64%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul.mystickyno-minimize li {
+	width: 9.09%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-1 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-1 ul li {
+	width: 95%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-2 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-2 ul li {
+	width: 47.5%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-3 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-3 ul li {
+	width: 31.66%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-4 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-4 ul li {
+	width: 23.75%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-5 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-5 ul li {
+	width: 19%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-6 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-6 ul li {
+	width: 15.83%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-7 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-7 ul li {
+	width: 13.57%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-8 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-8 ul li {
+	width: 11.88%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-9 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-9 ul li {
+	width: 10.55%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-10 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-10 ul li {
+	width: 9.5%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-11 ul li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-11 ul li {
+	width: 8.64%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-6 .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-6 .mystickyelements-contact-form .mystickyelements-social-icon {
+	padding-top: 9px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-1 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-1 ul.mystickyno-minimize li {
+	width: 100%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-2 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-2 ul.mystickyno-minimize li {
+	width: 50%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-3 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-3 ul.mystickyno-minimize li {
+	width: 33.33%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-4 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-4 ul.mystickyno-minimize li {
+	width: 25%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-5 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-5 ul.mystickyno-minimize li {
+	width: 20%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-6 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-6 ul.mystickyno-minimize li {
+	width: 16.66%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-7 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-7 ul.mystickyno-minimize li {
+	width: 14.28%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-8 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-8 ul.mystickyno-minimize li {
+	width: 12.5%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-9 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-9 ul.mystickyno-minimize li {
+	width: 11.11%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-10 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-10 ul.mystickyno-minimize li {
+	width: 10%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-11 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-11 ul.mystickyno-minimize li {
+	width: 9.09%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .element-contact-form {
+	top: auto;
+	left: 0;
+	bottom: 100%;
+	width: 100%;
+	right: 0;
+	-webkit-transform: rotateX(90deg);
+	-moz-transform: rotateX(90deg);
+	transform: rotateX(90deg);
+	-webkit-transform-origin: 0 100% 0;
+	-moz-transform-origin: 0 100% 0;
+	transform-origin: 0 100% 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-social-text {
+	-webkit-transform: rotateX(90deg);
+	-moz-transform: rotateX(90deg);
+	transform: rotateX(90deg);
+	-webkit-transform-origin: 0 100% 0;
+	-moz-transform-origin: 0 100% 0;
+	transform-origin: 0 100% 0;
+	border-radius: 10px 10px 0 0;
+	left: 0;
+	right: auto;
+	bottom: 100%;
+	min-width: 100%;
+	top: auto;
+	height: auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: none;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-social-text.mystickyelements-social-no-link ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-social-text.mystickyelements-social-no-link {
+	display: block;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-social-text.mystickyelements-social-no-link,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom span.mystickyelements-social-text a ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-social-text.mystickyelements-social-no-link,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top span.mystickyelements-social-text a {
+	padding: 10px 10px;
+	white-space: initial;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left {
+	right: auto;
+	left: 0;
+	text-align: left;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right {
+	right: 0;
+	left: auto;
+	text-align: right;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-entry-effect-slide-in {
+	left: -90px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-entry-effect-slide-in.entry-effect {
+	left: 0;
+	right: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-entry-effect-slide-in {
+	right: -90px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-entry-effect-slide-in.entry-effect {
+	right: 0;
+	left: auto;
+}
+.myStickyelements-preview-mobile-screen span.mystickyelements-minimize.minimize-position-mobile-left {
+	border-radius: 0 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen span.mystickyelements-minimize.minimize-position-mobile-right {
+	border-radius: 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .element-minimize span.mystickyelements-minimize.minimize-position-mobile-left {
+	border-radius: 0 6px 6px 0;
+}
+.myStickyelements-preview-mobile-screen .element-minimize span.mystickyelements-minimize.minimize-position-mobile-right {
+	border-radius: 6px 0 0 6px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right .element-contact-form {
+	-webkit-transform-origin: 100% 0 0;
+	-moz-transform-origin: 100% 0 0;
+	transform-origin: 100% 0 0;
+	left: auto;
+	right: 100%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right span.mystickyelements-social-text {
+	border-radius: 10px 0 0 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left .element-contact-form {
+	-webkit-transform-origin: 0 0 0;
+	-moz-transform-origin: 0 0 0;
+	transform-origin: 0 0 0;
+	left: 100%;
+	right: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left span.mystickyelements-social-text {
+	border-radius: 0 10px 10px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-right .mystickyelements-lists.mystickyelement-minimize li:not(.mystickyelements-minimize) {
+	left: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-left .mystickyelements-lists.mystickyelement-minimize li:not(.mystickyelements-minimize) {
+	left: -50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul li:first-child.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul li:last-child .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom ul li:last-child.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul li:first-child.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul li:last-child .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top ul li:last-child.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left ul li:first-child.mystickyelements-minimize .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left ul li:first-child .mystickyelements-social-icon {
+	border-radius: 0 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left ul li:first-child.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left ul li:last-child .mystickyelements-social-icon {
+	border-radius: 0 0 10px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left ul li:last-child.mystickyelements-contact-form .mystickyelements-social-icon{
+	border-radius: 0 0 0 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right ul li:first-child.mystickyelements-minimize .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right ul li:first-child .mystickyelements-social-icon{
+	border-radius: 10px 0 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right ul li:last-child .mystickyelements-social-icon {
+	border-radius: 0 0 0 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right ul li:first-child.mystickyelements-contact-form .mystickyelements-social-icon{
+	border-radius: 0 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right ul li:last-child.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 10px 0 0 0;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom ul li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top ul li {
+	width: 30% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-1 ul li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-1 ul li {
+	width: 90% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-2 ul li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-2 ul li {
+	width: 45% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-2 ul.remove-contact-field li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-2 ul.remove-contact-field li {
+	width: 90% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-3 ul.remove-contact-field li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-3 ul.remove-contact-field li {
+	width: 45% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom ul li.mystickyelements-minimize ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top ul li.mystickyelements-minimize {
+	width: 10% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-1 ul.remove-minimize li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-1 ul.remove-minimize li {
+	width: 100% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-2 ul.remove-minimize li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-2 ul.remove-minimize li {
+	width: 50% !important;
+}
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-top-social-channel-3 ul.remove-minimize li ,
+.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-top-social-channel-3 ul.remove-minimize li {
+	width: 33.33% !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-1 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-1 ul.mystickyno-minimize li {
+	width: 100%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-2 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-2 ul.mystickyno-minimize li {
+	width: 50%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-bottom-social-channel-3 ul.mystickyno-minimize li ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-top-social-channel-3 ul.mystickyno-minimize li {
+	width: 33.33%;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon i ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon i {
+	font-size: 14px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon i ,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon i {
+	font-size: 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon i ,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon i {
+	font-size: 18px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon.mystickyelements-contact-notext i ,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon.mystickyelements-contact-notext i {
+	font-size: 20px;
+    line-height: 1.5;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon.mystickyelements-contact-notext i ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon.mystickyelements-contact-notext i {
+	font-size: 17px;
+	line-height: 1.5;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-form .mystickyelements-social-icon {
+	font-size: 11px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 23px;
+	border-bottom-width: 22px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 19px;
+	border-bottom-width: 19px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 25px;
+	border-bottom-width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 6px;
+	bottom: 6px;
+	left: 6px;
+	right: 6px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after {
+	width: 22px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after {
+	width: 20px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 7px;
+	bottom: 7px;
+	left: 7px;
+	right: 7px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after {
+	width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after {
+    display: none;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 23px;
+	border-bottom-width: 22px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 19px;
+	border-bottom-width: 19px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 25px;
+	border-bottom-width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-left: 23px solid #f00;
+	border-right: 0;
+	left: 100%;
+	right: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-right: 23px solid #f00;
+	right: 100%;
+	border-left: 0;
+	left: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-left.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-left-width: 19px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-right-width: 19px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-left.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-left-width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-right-width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	left: -25px;
+	right: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	left: -24px;
+	right: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	left: -29px;
+	right: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	right: -25px;
+	left: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	right: -24px;
+	left: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	right: -29px;
+	left: auto;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+    top: 3px;
+    bottom: 3px;
+    width: 51px;
+    height: 40px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+    width: 46px;
+    height: 34px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+    width: 58px;
+    height: 45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	display: none;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 23px;
+	border-bottom-width: 22px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 19px;
+	border-bottom-width: 19px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-top-width: 25px;
+	border-bottom-width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i {
+	padding-right: 20px;
+	padding-left: 0;
+	padding-top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i {
+	padding-left: 20px;
+	padding-right: 0;
+	padding-top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-triangle li span.mystickyelements-social-icon svg {
+	margin-right: 20px;
+	margin-left: 0;
+	margin-top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-triangle li span.mystickyelements-social-icon svg {
+	margin-left: 20px;
+	margin-right: 0;
+	margin-top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon {
+    padding-left: 0;
+    padding-right: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-right: 0;
+	border-left: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-diamond li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::after {
+    border: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon {
+	border-radius: 0 25px 25px 0 !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon {
+	border-radius: 25px 0 0 25px !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-round li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-round li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-roundad li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-round li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-round li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon {
+	border-radius: 0 !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-leaf_left li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-leaf_left li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-leaf_right li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-leaf_right li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-leaf_left li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-leaf_left li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-leaf_right li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon a,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-leaf_right li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon {
+    border-radius: 0 !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-templates-diamond .social-insagram,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle .social-insagram,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-templates-diamond .social-insagram,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-templates-triangle .social-insagram {
+	background: linear-gradient(135deg, #582bcd 0%,#ed4c33 50%,#f7d36f 100%) !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 3px;
+	transform: rotate(-28deg) skewX(36deg);
+	width: 51px;
+	height: 40px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 2px;
+	transform: rotate(-28deg) skewX(36deg);
+	width: 46px;
+	height: 35px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 3px;
+	transform: rotate(-28deg) skewX(36deg);
+	width: 56px;
+	height: 46px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i {
+	padding-top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-bottom.mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i {
+	padding-right: 15px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-bottom.mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i {
+	padding-left: 15px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-line i.mystickyelement_line_icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-qzone i.mystickyelement_qzone_icon {
+	background-position: 3px center;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-line i.mystickyelement_line_icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-qzone i.mystickyelement_qzone_icon {
+	background-position: 20px center;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-line i.mystickyelement_line_icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-right.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-qzone i.mystickyelement_qzone_icon {
+	background-position: 18px center;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-line i.mystickyelement_line_icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-qzone i.mystickyelement_qzone_icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-line i.mystickyelement_line_icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-qzone i.mystickyelement_qzone_icon {
+	background-position: center center;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+    width: 32px;
+    height: 32px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+	margin-left: -17px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+	margin-right: -15px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+	display: none;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+    width: 27px;
+    height: 27px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+    width: 36px;
+    height: 36px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-bottom.mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom) ul li {
+	float: none;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-bottom.mystickyelements-fixed.mystickyelements-position-mobile-top ul li {
+	float: left;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-bottom.mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom) ul li.mystickyelements-minimize {
+	width: 45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-bottom.mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom) ul li.mystickyelements-minimize {
+	width: 38px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-bottom.mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom) ul li.mystickyelements-minimize {
+	width: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom) span.mystickyelements-minimize.minimize-position-bottom {
+	height: 32px;
+	line-height: 32px;
+	border-radius: 0 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-right:not(.mystickyelements-position-mobile-bottom) span.mystickyelements-minimize.minimize-position-bottom {
+	border-radius: 10px 0 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-bottom:not(.mystickyelements-position-mobile-bottom) ul li.mystickyelements-contact-form {
+	padding-top: 53px;
+	padding-bottom: 45px;
+	width: 45px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-bottom.mystickyelements-position-mobile-top ul li.mystickyelements-contact-form {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-fixed.mystickyelements-position-bottom:not(.mystickyelements-position-mobile-bottom) ul li.mystickyelements-contact-form {
+	padding-top: 53px;
+	padding-bottom: 52px;
+	width: 38px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-fixed.mystickyelements-position-bottom.mystickyelements-position-mobile-top ul li.mystickyelements-contact-form {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-fixed.mystickyelements-position-bottom:not(.mystickyelements-position-mobile-bottom) ul li.mystickyelements-contact-form {
+	padding-top: 64px;
+	padding-bottom: 65px;
+	width: 50px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-fixed.mystickyelements-position-bottom.mystickyelements-position-mobile-top ul li.mystickyelements-contact-form {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-bottom:not(.mystickyelements-position-mobile-bottom) .mystickyelements-contact-form .mystickyelements-social-icon {
+	-webkit-transform-origin: 45px 45px 0;
+	-moz-transform-origin: 45px 45px 0;
+	transform-origin: 45px 45px 0;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-mobile-size-large.mystickyelements-position-bottom:not(.mystickyelements-position-mobile-bottom) .mystickyelements-contact-form .mystickyelements-social-icon {
+	-webkit-transform-origin: 58px 58px 0;
+	-moz-transform-origin: 58px 58px 0;
+	transform-origin: 58px 58px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-bottom.mystickyelements-templates-arrow:not(.mystickyelements-position-mobile-bottom) li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	top: 0;
+	bottom: 0;
+	border-bottom-color: transparent;
+	border-bottom-width: 22px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-bottom.mystickyelements-templates-arrow:not(.mystickyelements-position-mobile-bottom) li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-bottom-width: 20px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-bottom.mystickyelements-templates-arrow:not(.mystickyelements-position-mobile-bottom) li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon::before {
+	border-bottom-width: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+    width: 32px;
+    height: 32px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-fixed.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+	width: 28px;
+	height: 28px;
+	transform-origin: 10px 20px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-fixed.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+	width: 36px;
+	height: 36px;
+	transform-origin: 10px 20px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+	margin-left: -17px;
+	transform-origin: 9px 20px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+	margin-right: -17px;
+	transform-origin: 6px 18px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+	transform-origin: 4px 12px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-position-mobile-right.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before {
+	transform-origin: 10px 23px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-arrow li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon.social-insagram::before,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-arrow .social-insagram + span.mystickyelements-social-text::before {
+	display: none;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-bottom:not(.mystickyelements-position-mobile-bottom) {
+	display: flex;
+	top: 0;
+}
+.myStickyelements-preview-mobile-screen span.mystickyelements-social-icon img {
+	width: 18px;
+	height: 18px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small span.mystickyelements-social-icon img {
+	width: 15px;
+	height: 15px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large span.mystickyelements-social-icon img {
+	width: 20px;
+	height: 20px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-medium.mystickyelements-templates-default span.mystickyelements-social-icon img {
+	width: 25px;
+	height: 25px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-templates-default span.mystickyelements-social-icon img {
+	width: 20px;
+	height: 20px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-large.mystickyelements-templates-default span.mystickyelements-social-icon img {
+	width: 30px;
+	height: 30px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-triangle span.mystickyelements-social-icon img {
+	margin: auto auto auto 5px;
+	top: 0;
+	left: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-triangle span.mystickyelements-social-icon img {
+	margin: auto 5px auto auto;
+	left: auto;
+	top: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle span.mystickyelements-social-icon img ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle span.mystickyelements-social-icon img {
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-roundad span.mystickyelements-minimize.minimize-position-mobile-left ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-round span.mystickyelements-minimize.minimize-position-mobile-left ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-leaf_right span.mystickyelements-minimize.minimize-position-mobile-left ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-leaf_left span.mystickyelements-minimize.minimize-position-mobile-left {
+	border-radius: 0 10px 10px 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-roundad .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-round .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-leaf_right .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-leaf_left .mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0 0 10px 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-roundad span.mystickyelements-minimize.minimize-position-mobile-right ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-round span.mystickyelements-minimize.minimize-position-mobile-right ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-leaf_right span.mystickyelements-minimize.minimize-position-mobile-right ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed:not(.mystickyelements-position-mobile-bottom).mystickyelements-templates-leaf_left span.mystickyelements-minimize.minimize-position-mobile-right {
+	border-radius: 10px 0 0 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-roundad .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-round .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-leaf_right .mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-leaf_left .mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 10px 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-templates-roundad span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-templates-round span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-templates-leaf_right span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-bottom.mystickyelements-templates-leaf_left span.mystickyelements-minimize.minimize-position-mobile-bottom,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-templates-roundad span.mystickyelements-minimize.minimize-position-mobile-top ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-templates-round span.mystickyelements-minimize.minimize-position-mobile-top ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-templates-leaf_right span.mystickyelements-minimize.minimize-position-mobile-top ,
+.myStickyelements-preview-mobile-screen .mystickyelements-fixed.mystickyelements-position-mobile-top.mystickyelements-templates-leaf_left span.mystickyelements-minimize.minimize-position-mobile-top {
+	border-radius: 0;
+}
+.myStickyelements-preview-mobile-screen span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen span.mystickyelements-minimize.minimize-position-mobile-top {
+	height: 45px !important;
+	line-height: 45px !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-small span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-small span.mystickyelements-minimize.minimize-position-mobile-top {
+	height: 38px !important;
+	line-height: 38px !important;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-mobile-size-large span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-mobile-size-large span.mystickyelements-minimize.minimize-position-mobile-top {
+	height: 50px !important;
+	line-height: 50px !important;
+}
+.myStickyelements-preview-mobile-screen span.mystickyelements-minimize.minimize-position-mobile-bottom ,
+.myStickyelements-preview-mobile-screen span.mystickyelements-minimize.minimize-position-mobile-top {
+	border-radius: 0 !important;
+}
+/*Custom field css*/
+.mystickyelements-add-custom-fields {
+    display: flex;
+    align-items: center;
+}
+.mystickyelements-add-custom-fields a.mystickyelements-new-custom-btn {
+	display: inline-block;
+	background-color: #7761DF;
+	text-transform: uppercase;
+	border-radius: 35px;
+	font-size: 17px;
+	padding: 12px 38px;
+	color: #fff;
+	text-decoration: none;
+	/*pointer-events: none;*/
+	vertical-align: top;
+}
+.mystickyelements-custom-fields-tooltip {
+    position: relative;
+    margin-right: 20px;
+}
+.myStickyelements-show-on-wrap .mystickyelements-custom-fields-tooltip{
+	margin-right: 40px;
+}
+.mystickyelements-custom-fields-tooltip a.mystickyelements-tooltip {
+	background-color: #A9A9A9;
+	color:#ffffff;
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+	pointer-events: all;
+}
+.mystickyelements-custom-fields-tooltip p {
+    margin: 0;
+    background-color: #000;
+    width: 380px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: #fff;
+    position: absolute;
+    bottom: 200%;
+    right: -20px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+.mystickyelements-custom-fields-tooltip p:before {
+	content: "";
+	border-top: 10px solid #000;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -8px;
+	right: 25px;
+}
+.mystickyelements-custom-fields-tooltip a:hover + p {
+    bottom: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.mystickyelements-custom-fields-tooltip.myStickyelements-country-tooltip {
+	display: inline-block;
+	vertical-align: top;
+}
+.myStickyelements-country-tooltip a.mystickyelements-new-custom-btn {
+	display: inline-block;
+	background-color: #A9A9A9;
+	text-transform: uppercase;
+	border-radius: 35px;
+	color: #ffffff;
+	text-decoration: none;
+	vertical-align: top;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top.mystickyelements-templates-triangle li:not(.mystickyelements-contact-form) span.mystickyelements-social-icon i {
+	padding: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li span.mystickyelements-social-icon svg,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-bottom.mystickyelements-templates-triangle li span.mystickyelements-social-icon svg,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top.mystickyelements-templates-triangle li span.mystickyelements-social-icon svg,
+.myStickyelements-preview-mobile-screen .mystickyelements-mobile-size-small.mystickyelements-position-mobile-top.mystickyelements-templates-triangle li span.mystickyelements-social-icon svg {
+	margin: 0;
+}
+.myStickyelements-preview-mobile-screen:not(.myStickyelements-preview-mobile-screen) .mystickyelements-fixed ul li.element-desktop-on {
+	display: block;
+}
+.myStickyelements-preview-mobile-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed ul li.element-desktop-on {
+	display: none;
+}
+.myStickyelements-preview-mobile-screen.myStickyelements-preview-mobile-screen .mystickyelements-fixed ul li.element-mobile-on {
+	display: block;
+}
+.mystickyelements-position-left .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0 0 0 10px;
+}
+.mystickyelements-position-right .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 10px 0 0 0;
+}
+.mystickyelements-position-bottom .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0 0 0 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 10px 0 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-bottom .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon ,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-top .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0 !important;
+}
+.mystickyelements-position-left .mystickyelements-contact-last.mystickyelements-contact-form:first-child .mystickyelements-social-icon {
+	border-radius: 0 0 10px 10px;
+}
+.mystickyelements-position-right .mystickyelements-contact-last.mystickyelements-contact-form:first-child .mystickyelements-social-icon {
+	border-radius: 10px 10px 0 0;
+}
+.mystickyelements-position-bottom .mystickyelements-contact-last.mystickyelements-contact-form:first-child .mystickyelements-social-icon {
+	border-radius: 10px 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left .mystickyelements-contact-last.mystickyelements-contact-form:first-child .mystickyelements-social-icon {
+	border-radius: 0 0 10px 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right .mystickyelements-contact-last.mystickyelements-contact-form:first-child .mystickyelements-social-icon {
+	border-radius: 10px 10px 0 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-roundad .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-round .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-leaf_right .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left.mystickyelements-templates-leaf_left .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 0 0 10px 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-roundad .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-round .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-leaf_right .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon,
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right.mystickyelements-templates-leaf_left .mystickyelements-contact-last.mystickyelements-contact-form .mystickyelements-social-icon {
+	border-radius: 10px 10px 0 0;
+}
+/*24-12-2019*/
+.mystickyelement-contact-form-leads-btn {
+	float: left;
+}
+.mystickyelement-contact-form-leads-btn a.create-rule {
+	font-size: 18px;
+	padding: 7px 30px;
+}
+/*11-01-2020*/
+.mystickyelements-position-left .remove-minimize .mystickyelements-contact-form-hide + li .mystickyelements-social-icon {
+	border-top-right-radius: 10px;
+}
+.mystickyelements-position-right .remove-minimize .mystickyelements-contact-form-hide + li .mystickyelements-social-icon {
+	border-top-left-radius: 10px;
+}
+.mystickyelements-position-bottom .remove-minimize .mystickyelements-contact-form-hide + li .mystickyelements-social-icon {
+	border-top-left-radius: 10px;
+}
+.mystickyelements-position-top .remove-minimize .mystickyelements-contact-form-hide + li .mystickyelements-social-icon {
+	border-bottom-left-radius: 10px;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-left .remove-minimize .mystickyelements-contact-form-hide + li .mystickyelements-social-icon {
+	border-top-right-radius: 10px;
+  border-top-left-radius: 0;
+}
+.myStickyelements-preview-mobile-screen .mystickyelements-position-mobile-right .remove-minimize .mystickyelements-contact-form-hide + li .mystickyelements-social-icon {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 0;
+}
+@media only screen and (max-width: 1450px) {
+	.myStickyelements-inputs li {
+		padding-right: 2px;
+		padding-left: 2px;
+		font-size: 10px;
+	}
+	.myStickyelements-container table td.myStickyelements-preview-tab {
+		width: 400px;
+	}
+	.myStickyelements-social-channels-lists li:nth-child(12n+1) {
+		clear: none;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.myStickyelements-inputs input[type="radio"] {
+		width: 17px;
+		height: 17px;
+	}
+	.myStickyelements-inputs input[type="radio"]:checked::before {
+		width: 8px;
+		height: 8px;
+	}
+	.myStickyelements-social-channels-lists li {
+		padding: 10px 6px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.myStickyelements-contact-form-tab .contact-form-view-label, .myStickyelements-contact-form-tab .contact-form-direction-label {
+		width: 25%;
+	}
+	.myStickyelements-contact-form-tab .contact-form-view label, .myStickyelements-contact-form-tab .contact-form-direction label {
+		width: 30%;
+	}
+	.myStickyelements-social-channels-lists li {
+		padding: 10px 5px;
+	}
+	.myStickyelements-channel-view label {
+		width: 29%;
+	}
+	.myStickyelements-channel-view label.social-tooltip {
+		width: 12%;
+	}
+	.myStickyelements-inputs {
+		width: 43%;
+	}
+	.mystickyelements-wrap .wp-picker-container {
+		margin-right: 0;
+		margin-top: 10px;
+	}
+	.mystickyelements-wrap .myStickyelements-general-settings .wp-picker-container {
+		margin-top: 0;
+	}
+	.myStickyelements-redirect-link-wrap label {
+		white-space: normal;
+	}
+	.myStickyelements-container table td.myStickyelements-preview-tab {
+		width: 280px;
+	}
+	.mystickyelements-reqired-wrap label {
+		width: 120px;
+	}
+	.myStickyelements-preview-screen {
+		height: 410px;
+	}
+	.myStickyelements-preview-screen.myStickyelements-preview-mobile-screen {
+		width: 220px;
+		height: 400px;
+	}
+	.myStickyelements-container table td #mystickyelements-contact-form-fields td, .myStickyelements-container table td {
+		width: 64%;
+	}
+	.myStickyelements-inputs li {
+		width: auto;
+		margin-left: 5px;
+	}
+	span.upgrade-myStickyelements a i {
+		margin-right: 0;
+	}
+	span.upgrade-myStickyelements a {
+		padding: 4px 7px;
+		margin-right: 5px;
+	}
+	span.myStickyelements-label {
+		font-size: 12px;
+	}
+	.myStickyelements-preview-screen, .social-channels-tab {
+		padding: 20px 10px 0 10px;
+	}
+	.social-channel-setting {
+		padding: 10px;
+	}
+	.social-channels-tab .social-channels-item {
+		padding-right: 30px;
+	}
+	.myStickyelements-show-on-right {
+		padding-right: 0;
+		clear: both;
+		padding-top: 10px;
+	}
+	.myStickyelements-page-option .url-content input[type="text"] {
+		width: 100%;
+	}
+	.myStickyelements-show-on-wrap {
+		display: block;
+	}
+	.myStickyelements-social-channels-lists li:nth-child(11n+1) {
+		clear: none;
+		padding-right: 5px;
+	}
+	.myStickyelements-social-channels-lists li:nth-child(8n+1) {
+		clear: both;
+		padding-right: 0;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.myStickyelements-container{
+		padding: 10px 15px;
+	}
+	.myStickyelements-preview-screen, .social-channels-tab{
+		padding: 20px 5px 10px 5px;
+	}
+	.myStickyelements-inputs input[type=radio]:checked:before {
+		margin: 4px;
+		font-size: 22px;
+	}
+	.social-channel-input-box input {
+		margin: 4px;
+		width: 83%;
+	}
+	body .myStickyelements-preview-screen.myStickyelements-preview-mobile-screen {
+		width: 200px;
+		height: 400px;
+	}
+	.myStickyelements-container table td {
+		padding-left: 7px;
+	}
+	span.myStickyelements-label {
+		width: 48%;
+	}
+	.mystickyelements-wrap .wp-picker-container {
+		margin-right: 0;
+		margin-top: 10px;
+	}
+	input[type="checkbox"]:checked::before {
+		margin: 0 0 0 -3px;
+		font-size: 22px;
+	}
+	.myStickyelements-container table td.myStickyelements-preview-tab {
+		width: 250px;
+	}
+	input#contact-form-submit-button {
+		width: 150px;
+	}
+	.myStickyelements-label span.upgrade-myStickyelements {
+		float: left;
+		margin-top: 10px;
+	}
+	.myStickyelements-inputs {
+		width: 50%;
+	}
+}
+.myStickyelements-custom-image-icon {
+	display: flex;
+	margin: 0 -10px 15px;
+}
+.myStickyelements-custom-image,
+.myStickyelements-custom-icon{
+	display: flex;
+	width: 50%;
+	padding: 0 10px;
+	align-items: center;
+}
+.myStickyelements-custom-icon > span:first-child {
+	font-weight: bold;
+	margin: 0 25px 0 0;
+}
+.myStickyelements-custom-icon span.select2.select2-container .select2-selection--single{
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ccc;
+	height: 38px;
+	line-height: 38px;
+}
+.myStickyelements-custom-icon span.select2.select2-container .select2-selection--single .select2-selection__rendered{
+	line-height: 38px;
+}
+.myStickyelements-custom-icon span.select2.select2-container .select2-selection__arrow{
+	height: 38px;
+}
+.myStickyelements-custom-icon .social-channel-fontawesome-icon,
+.myStickyelements-custom-icon span.select2.select2-container.select2-container--default{
+	width: 100% !important;
+}
+/*DATE: 01-11-2019*/
+input[type=color], input[type=date],
+input[type=datetime-local], input[type=datetime],
+input[type=email], input[type=month],
+input[type=number], input[type=password],
+input[type=search], input[type=tel],
+input[type=text], input[type=time],
+input[type=url], input[type=week],
+select, textarea {
+    border: 1px solid #ddd !important;
+}
+.wp-admin select.disabled, .wp-admin select:disabled,
+.wp-admin input[disabled] {
+	background: #fff;
+}
+.wp-admin select:focus,
+.wp-admin select:hover {
+	color: #32373c;
+}

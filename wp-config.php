@@ -16,6 +16,10 @@
 
 // ** MySQL ayarları - Bu bilgileri sunucunuzdan alabilirsiniz ** //
 /** WordPress için kullanılacak veritabanının adı */
+define('WP_HOME','http://localhost:8080/website');
+define('WP_SITEURL','http://localhost:8080/website');
+
+
 define( 'DB_NAME', 'website_db' );
 
 /** MySQL veritabanı kullanıcısı */
